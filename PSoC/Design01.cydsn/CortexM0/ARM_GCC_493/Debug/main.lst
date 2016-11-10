@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 1
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccL2ZvyQ.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 1
   30              		.cfi_offset 4, -8
   31              		.cfi_offset 14, -4
   32 0002 88B0     		sub	sp, sp, #32
-ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 2
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccL2ZvyQ.s 			page 2
 
 
   33              		.cfi_def_cfa_offset 40
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 1
   64:.\main.c      ****         struct MPU_9150_config *accConfigObj = malloc(sizeof(struct MPU_9150_config));
   49              		.loc 1 64 0
   50 0014 0420     		mov	r0, #4
-ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 3
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccL2ZvyQ.s 			page 3
 
 
   51 0016 FFF7FEFF 		bl	malloc
@@ -173,12 +173,12 @@ ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 1
   82:.\main.c      ****     for(;;) // endless loop
   83:.\main.c      ****     {
   84:.\main.c      ****         /*MatLab UART*/
-  85:.\main.c      ****         CyDelay(50);
+  85:.\main.c      ****         CyDelay(100);
   83              		.loc 1 85 0 discriminator 1
-  84 0044 3220     		mov	r0, #50
+  84 0044 6420     		mov	r0, #100
   85 0046 FFF7FEFF 		bl	CyDelay
   86              	.LVL10:
-ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 4
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccL2ZvyQ.s 			page 4
 
 
   86:.\main.c      ****         acc_x_H = ReadI2CData(ACCEL_XOUT_H);
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 1
  133              		.text
  134              	.Letext0:
  135              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\3.3\\psoc creator\\import\\gnu\\arm\\4.9.
-ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 5
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccL2ZvyQ.s 			page 5
 
 
  136              		.file 3 "c:\\program files (x86)\\cypress\\psoc creator\\3.3\\psoc creator\\import\\gnu\\arm\\4.9.
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 1
  190 0062 02       		.uleb128 0x2
  191 0063 CE020000 		.4byte	.LASF7
  192 0067 02       		.byte	0x2
-ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 6
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccL2ZvyQ.s 			page 6
 
 
  193 0068 3F       		.byte	0x3f
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 1
  247 00d4 2D       		.byte	0x2d
  248 00d5 74000000 		.4byte	0x74
  249 00d9 05       		.uleb128 0x5
-ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 7
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccL2ZvyQ.s 			page 7
 
 
  250 00da 8A020000 		.4byte	.LASF19
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 1
  304 0148 06       		.byte	0x6
  305 0149 07       		.byte	0x7
  306 014a AD000000 		.4byte	0xad
-ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 8
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccL2ZvyQ.s 			page 8
 
 
  307 014e 01       		.byte	0x1
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 1
  361 01bc 703500   		.ascii	"p5\000"
  362 01bf 01       		.byte	0x1
  363 01c0 22       		.byte	0x22
-ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 9
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccL2ZvyQ.s 			page 9
 
 
  364 01c1 1A010000 		.4byte	0x11a
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 1
  418 0238 01       		.byte	0x1
  419 0239 2E       		.byte	0x2e
  420 023a A2000000 		.4byte	0xa2
-ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 10
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccL2ZvyQ.s 			page 10
 
 
  421 023e 12       		.uleb128 0x12
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 1
  475 02b9 01       		.uleb128 0x1
  476 02ba 50       		.byte	0x50
  477 02bb 02       		.uleb128 0x2
-ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 11
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccL2ZvyQ.s 			page 11
 
 
  478 02bc 74       		.byte	0x74
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 1
  532 031c 00       		.byte	0
  533 031d 17       		.uleb128 0x17
  534 031e 0A000000 		.4byte	.LVL0
-ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 12
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccL2ZvyQ.s 			page 12
 
 
  535 0322 74040000 		.4byte	0x474
@@ -682,7 +682,7 @@ ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 1
  553 0349 50       		.byte	0x50
  554 034a 02       		.uleb128 0x2
  555 034b 08       		.byte	0x8
- 556 034c 32       		.byte	0x32
+ 556 034c 64       		.byte	0x64
  557 034d 00       		.byte	0
  558 034e 14       		.uleb128 0x14
  559 034f 50000000 		.4byte	.LVL11
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 1
  589 0388 00000000 		.4byte	.LC0
  590 038c 15       		.uleb128 0x15
  591 038d 01       		.uleb128 0x1
-ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 13
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccL2ZvyQ.s 			page 13
 
 
  592 038e 50       		.byte	0x50
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 1
  646 03f1 20       		.byte	0x20
  647 03f2 63       		.byte	0x63
  648 03f3 6F       		.byte	0x6f
-ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 14
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccL2ZvyQ.s 			page 14
 
 
  649 03f4 6E       		.byte	0x6e
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 1
  703 0451 09       		.byte	0x9
  704 0452 D7       		.byte	0xd7
  705 0453 5D040000 		.4byte	0x45d
-ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 15
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccL2ZvyQ.s 			page 15
 
 
  706 0457 1C       		.uleb128 0x1c
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 1
  760 04ca F3000000 		.4byte	0xf3
  761 04ce 00       		.byte	0
  762              		.section	.debug_abbrev,"",%progbits
-ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 16
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccL2ZvyQ.s 			page 16
 
 
  763              	.Ldebug_abbrev0:
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 1
  817 0035 00       		.byte	0
  818 0036 05       		.uleb128 0x5
  819 0037 16       		.uleb128 0x16
-ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 17
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccL2ZvyQ.s 			page 17
 
 
  820 0038 00       		.byte	0
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 1
  874 006e 3A       		.uleb128 0x3a
  875 006f 0B       		.uleb128 0xb
  876 0070 3B       		.uleb128 0x3b
-ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 18
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccL2ZvyQ.s 			page 18
 
 
  877 0071 0B       		.uleb128 0xb
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 1
  931 00a8 3B       		.uleb128 0x3b
  932 00a9 0B       		.uleb128 0xb
  933 00aa 49       		.uleb128 0x49
-ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 19
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccL2ZvyQ.s 			page 19
 
 
  934 00ab 13       		.uleb128 0x13
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 1
  988 00e1 0B       		.uleb128 0xb
  989 00e2 49       		.uleb128 0x49
  990 00e3 13       		.uleb128 0x13
-ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 20
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccL2ZvyQ.s 			page 20
 
 
  991 00e4 1C       		.uleb128 0x1c
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 1
  1045 0121 01       		.uleb128 0x1
  1046 0122 31       		.uleb128 0x31
  1047 0123 13       		.uleb128 0x13
-ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 21
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccL2ZvyQ.s 			page 21
 
 
  1048 0124 00       		.byte	0
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 1
  1102 015c 13       		.uleb128 0x13
  1103 015d 00       		.byte	0
  1104 015e 00       		.byte	0
-ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 22
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccL2ZvyQ.s 			page 22
 
 
  1105 015f 1C       		.uleb128 0x1c
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 1
  1159 0195 0E       		.uleb128 0xe
  1160 0196 3A       		.uleb128 0x3a
  1161 0197 0B       		.uleb128 0xb
-ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 23
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccL2ZvyQ.s 			page 23
 
 
  1162 0198 3B       		.uleb128 0x3b
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 1
  1216 0063 58000000 		.4byte	.LVL13
  1217 0067 68000000 		.4byte	.LVL18
  1218 006b 0100     		.2byte	0x1
-ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 24
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccL2ZvyQ.s 			page 24
 
 
  1219 006d 50       		.byte	0x50
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 1
  1273 0000 60020000 		.section	.debug_str,"MS",%progbits,1
  1273      02001A02 
  1273      00000201 
-ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 25
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccL2ZvyQ.s 			page 25
 
 
  1273      FB0E0D00 
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 1
  1303 0085 61636343 		.ascii	"accConfigObj\000"
  1303      6F6E6669 
  1303      674F626A 
-ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 26
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccL2ZvyQ.s 			page 26
 
 
  1303      00
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 1
  1327      676E6564 
  1327      20636861 
  1327      7200
-ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 27
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccL2ZvyQ.s 			page 27
 
 
  1328              	.LASF2:
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 1
  1354              	.LASF55:
  1355 021d 433A5C55 		.ascii	"C:\\Users\\capslock\\Documents\\accelerometer\\PSoC"
  1355      73657273 
-ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 28
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccL2ZvyQ.s 			page 28
 
 
  1355      5C636170 
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 1
  1379              	.LASF4:
  1380 02e0 5F5F696E 		.ascii	"__int16_t\000"
  1380      7431365F 
-ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccykw56B.s 			page 29
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccL2ZvyQ.s 			page 29
 
 
  1380      7400
