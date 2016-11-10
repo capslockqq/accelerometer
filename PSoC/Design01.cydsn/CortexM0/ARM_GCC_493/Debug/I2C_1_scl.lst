@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccqL8xnp.s 			page 1
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\cc6nzQET.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccqL8xnp.s 			page 1
   30:.\Generated_Source\PSoC4/I2C_1_scl.c ****         #define I2C_1_scl_SetP4PinDriveMode(shift, mode)  \
   31:.\Generated_Source\PSoC4/I2C_1_scl.c ****         do { \
   32:.\Generated_Source\PSoC4/I2C_1_scl.c ****             I2C_1_scl_USBIO_CTRL_REG = (I2C_1_scl_USBIO_CTRL_REG & \
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccqL8xnp.s 			page 2
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\cc6nzQET.s 			page 2
 
 
   33:.\Generated_Source\PSoC4/I2C_1_scl.c ****                                     (uint32)(~(uint32)(I2C_1_scl_DRIVE_MODE_IND_MASK << \
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccqL8xnp.s 			page 1
   37              		.loc 1 75 0
   38              		@ sp needed
   39 000c 7047     		bx	lr
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccqL8xnp.s 			page 3
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\cc6nzQET.s 			page 3
 
 
   40              	.L3:
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccqL8xnp.s 			page 1
   57              	.LVL2:
   58 0000 031C     		mov	r3, r0
  113:.\Generated_Source\PSoC4/I2C_1_scl.c ****     uint8 drVal = (uint8)(I2C_1_scl_DR & (uint8)(~I2C_1_scl_MASK));
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccqL8xnp.s 			page 4
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\cc6nzQET.s 			page 4
 
 
   59              		.loc 1 113 0
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccqL8xnp.s 			page 1
  136:.\Generated_Source\PSoC4/I2C_1_scl.c **** uint8 I2C_1_scl_Read(void)
  137:.\Generated_Source\PSoC4/I2C_1_scl.c **** {
   91              		.loc 1 137 0
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccqL8xnp.s 			page 5
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\cc6nzQET.s 			page 5
 
 
   92              		.cfi_startproc
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccqL8xnp.s 			page 1
  166:.\Generated_Source\PSoC4/I2C_1_scl.c ****     return (uint8)((I2C_1_scl_DR & I2C_1_scl_MASK) >> I2C_1_scl_SHIFT);
  118              		.loc 1 166 0
  119 0000 024B     		ldr	r3, .L11
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccqL8xnp.s 			page 6
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\cc6nzQET.s 			page 6
 
 
  120 0002 1868     		ldr	r0, [r3]
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccqL8xnp.s 			page 1
  200:.\Generated_Source\PSoC4/I2C_1_scl.c **** *  function to avoid unintended interrupt requests. Note that the interrupt
  201:.\Generated_Source\PSoC4/I2C_1_scl.c **** *  type is port wide, and therefore will trigger for any enabled pin on the 
  202:.\Generated_Source\PSoC4/I2C_1_scl.c **** *  port.
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccqL8xnp.s 			page 7
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\cc6nzQET.s 			page 7
 
 
  203:.\Generated_Source\PSoC4/I2C_1_scl.c **** *
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccqL8xnp.s 			page 1
  226:.\Generated_Source\PSoC4/I2C_1_scl.c **** *  has one bit set if it generated an interrupt event. For example, bit 0 is 
  227:.\Generated_Source\PSoC4/I2C_1_scl.c **** *  for pin 0 and bit 1 is for pin 1 of the Pins component.
  228:.\Generated_Source\PSoC4/I2C_1_scl.c **** *  
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccqL8xnp.s 			page 8
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\cc6nzQET.s 			page 8
 
 
  229:.\Generated_Source\PSoC4/I2C_1_scl.c **** * \sideeffect
@@ -466,26 +466,26 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccqL8xnp.s 			page 1
  201 000b 01       		.uleb128 0x1
  202 000c 14010000 		.4byte	.LASF28
  203 0010 01       		.byte	0x1
- 204 0011 AC010000 		.4byte	.LASF29
- 205 0015 12020000 		.4byte	.LASF30
+ 204 0011 EA010000 		.4byte	.LASF29
+ 205 0015 A2010000 		.4byte	.LASF30
  206 0019 00000000 		.4byte	.Ldebug_ranges0+0
  207 001d 00000000 		.4byte	0
  208 0021 00000000 		.4byte	.Ldebug_line0
  209 0025 02       		.uleb128 0x2
  210 0026 01       		.byte	0x1
  211 0027 06       		.byte	0x6
- 212 0028 06020000 		.4byte	.LASF0
+ 212 0028 44020000 		.4byte	.LASF0
  213 002c 02       		.uleb128 0x2
  214 002d 01       		.byte	0x1
  215 002e 08       		.byte	0x8
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccqL8xnp.s 			page 9
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\cc6nzQET.s 			page 9
 
 
  216 002f 3C000000 		.4byte	.LASF1
  217 0033 02       		.uleb128 0x2
  218 0034 02       		.byte	0x2
  219 0035 05       		.byte	0x5
- 220 0036 A2010000 		.4byte	.LASF2
+ 220 0036 E0010000 		.4byte	.LASF2
  221 003a 02       		.uleb128 0x2
  222 003b 02       		.byte	0x2
  223 003c 07       		.byte	0x7
@@ -493,7 +493,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccqL8xnp.s 			page 1
  225 0041 02       		.uleb128 0x2
  226 0042 04       		.byte	0x4
  227 0043 05       		.byte	0x5
- 228 0044 ED010000 		.4byte	.LASF4
+ 228 0044 2B020000 		.4byte	.LASF4
  229 0048 02       		.uleb128 0x2
  230 0049 04       		.byte	0x4
  231 004a 07       		.byte	0x7
@@ -515,7 +515,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccqL8xnp.s 			page 1
  247 0066 07       		.byte	0x7
  248 0067 B2000000 		.4byte	.LASF8
  249 006b 04       		.uleb128 0x4
- 250 006c D1010000 		.4byte	.LASF9
+ 250 006c 0F020000 		.4byte	.LASF9
  251 0070 02       		.byte	0x2
  252 0071 9801     		.2byte	0x198
  253 0073 2C000000 		.4byte	0x2c
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccqL8xnp.s 			page 1
  270 0098 04       		.byte	0x4
  271 0099 8C000000 		.4byte	.LASF13
  272 009d 02       		.uleb128 0x2
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccqL8xnp.s 			page 10
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\cc6nzQET.s 			page 10
 
 
  273 009e 01       		.byte	0x1
@@ -568,7 +568,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccqL8xnp.s 			page 1
  297 00d5 00000000 		.4byte	.LLST0
  298 00d9 00       		.byte	0
  299 00da 06       		.uleb128 0x6
- 300 00db F6010000 		.4byte	.LASF17
+ 300 00db 34020000 		.4byte	.LASF17
  301 00df 01       		.byte	0x1
  302 00e0 6F       		.byte	0x6f
  303 00e1 00000000 		.4byte	.LFB1
@@ -598,11 +598,11 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccqL8xnp.s 			page 1
  327 011d 10000000 		.4byte	.LFE2-.LFB2
  328 0121 01       		.uleb128 0x1
  329 0122 9C       		.byte	0x9c
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccqL8xnp.s 			page 11
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\cc6nzQET.s 			page 11
 
 
  330 0123 09       		.uleb128 0x9
- 331 0124 D7010000 		.4byte	.LASF21
+ 331 0124 15020000 		.4byte	.LASF21
  332 0128 01       		.byte	0x1
  333 0129 A4       		.byte	0xa4
  334 012a 6B000000 		.4byte	0x6b
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccqL8xnp.s 			page 1
  384 0198 50       		.byte	0x50
  385 0199 00       		.byte	0
  386 019a 00       		.byte	0
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccqL8xnp.s 			page 12
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\cc6nzQET.s 			page 12
 
 
  387              		.section	.debug_abbrev,"",%progbits
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccqL8xnp.s 			page 1
  441 0034 00       		.byte	0
  442 0035 00       		.byte	0
  443 0036 05       		.uleb128 0x5
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccqL8xnp.s 			page 13
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\cc6nzQET.s 			page 13
 
 
  444 0037 35       		.uleb128 0x35
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccqL8xnp.s 			page 1
  498 006e 0B       		.uleb128 0xb
  499 006f 49       		.uleb128 0x49
  500 0070 13       		.uleb128 0x13
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccqL8xnp.s 			page 14
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\cc6nzQET.s 			page 14
 
 
  501 0071 02       		.uleb128 0x2
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccqL8xnp.s 			page 1
  555 00a8 13       		.uleb128 0x13
  556 00a9 02       		.uleb128 0x2
  557 00aa 18       		.uleb128 0x18
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccqL8xnp.s 			page 15
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\cc6nzQET.s 			page 15
 
 
  558 00ab 00       		.byte	0
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccqL8xnp.s 			page 1
  612 0038 50       		.byte	0x50
  613 0039 9F       		.byte	0x9f
  614 003a 00000000 		.4byte	0
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccqL8xnp.s 			page 16
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\cc6nzQET.s 			page 16
 
 
  615 003e 00000000 		.4byte	0
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccqL8xnp.s 			page 1
  669 0010 00000000 		.4byte	.LFB2
  670 0014 10000000 		.4byte	.LFE2
  671 0018 00000000 		.4byte	.LFB3
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccqL8xnp.s 			page 17
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\cc6nzQET.s 			page 17
 
 
  672 001c 10000000 		.4byte	.LFE3
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccqL8xnp.s 			page 1
  700              	.LASF16:
  701 0075 4932435F 		.ascii	"I2C_1_scl_SetDriveMode\000"
  701      315F7363 
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccqL8xnp.s 			page 18
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\cc6nzQET.s 			page 18
 
 
  701      6C5F5365 
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccqL8xnp.s 			page 1
  727      4320342E 
  727      392E3320 
  727      32303135 
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccqL8xnp.s 			page 19
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\cc6nzQET.s 			page 19
 
 
  727      30333033 
@@ -1092,47 +1092,46 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccqL8xnp.s 			page 1
  729      74696F6E 
  729      2D736563 
  729      74696F6E 
- 730              	.LASF2:
- 731 01a2 73686F72 		.ascii	"short int\000"
- 731      7420696E 
- 731      7400
- 732              	.LASF29:
- 733 01ac 2E5C4765 		.ascii	".\\Generated_Source\\PSoC4\\I2C_1_scl.c\000"
- 733      6E657261 
- 733      7465645F 
- 733      536F7572 
- 733      63655C50 
- 734              	.LASF9:
- 735 01d1 75696E74 		.ascii	"uint8\000"
- 735      3800
- 736              	.LASF21:
- 737 01d7 4932435F 		.ascii	"I2C_1_scl_ReadDataReg\000"
- 737      315F7363 
- 737      6C5F5265 
- 737      61644461 
- 737      74615265 
- 738              	.LASF4:
- 739 01ed 6C6F6E67 		.ascii	"long int\000"
- 739      20696E74 
- 739      00
- 740              	.LASF17:
- 741 01f6 4932435F 		.ascii	"I2C_1_scl_Write\000"
- 741      315F7363 
- 741      6C5F5772 
- 741      69746500 
- 742              	.LASF0:
- 743 0206 7369676E 		.ascii	"signed char\000"
- 743      65642063 
- 743      68617200 
- 744              	.LASF30:
- 745 0212 433A5C55 		.ascii	"C:\\Users\\EmilR\\OneDrive\\Skole\\4. Semester\\PRJ"
- 745      73657273 
- 745      5C456D69 
- 745      6C525C4F 
- 745      6E654472 
- 746 023f 345C6163 		.ascii	"4\\acc_v1_surface\\Design01.cydsn\000"
- 746      635F7631 
- 746      5F737572 
- 746      66616365 
- 746      5C446573 
+ 730              	.LASF30:
+ 731 01a2 433A5C55 		.ascii	"C:\\Users\\capslock\\Documents\\accelerometer\\PSoC"
+ 731      73657273 
+ 731      5C636170 
+ 731      736C6F63 
+ 731      6B5C446F 
+ 732 01d0 5C446573 		.ascii	"\\Design01.cydsn\000"
+ 732      69676E30 
+ 732      312E6379 
+ 732      64736E00 
+ 733              	.LASF2:
+ 734 01e0 73686F72 		.ascii	"short int\000"
+ 734      7420696E 
+ 734      7400
+ 735              	.LASF29:
+ 736 01ea 2E5C4765 		.ascii	".\\Generated_Source\\PSoC4\\I2C_1_scl.c\000"
+ 736      6E657261 
+ 736      7465645F 
+ 736      536F7572 
+ 736      63655C50 
+ 737              	.LASF9:
+ 738 020f 75696E74 		.ascii	"uint8\000"
+ 738      3800
+ 739              	.LASF21:
+ 740 0215 4932435F 		.ascii	"I2C_1_scl_ReadDataReg\000"
+ 740      315F7363 
+ 740      6C5F5265 
+ 740      61644461 
+ 740      74615265 
+ 741              	.LASF4:
+ 742 022b 6C6F6E67 		.ascii	"long int\000"
+ 742      20696E74 
+ 742      00
+ 743              	.LASF17:
+ 744 0234 4932435F 		.ascii	"I2C_1_scl_Write\000"
+ 744      315F7363 
+ 744      6C5F5772 
+ 744      69746500 
+ 745              	.LASF0:
+ 746 0244 7369676E 		.ascii	"signed char\000"
+ 746      65642063 
+ 746      68617200 
  747              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150303 (release) [ARM/embedded-4_9-br

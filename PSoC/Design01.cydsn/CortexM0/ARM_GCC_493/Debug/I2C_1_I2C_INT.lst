@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 1
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccWQpj2a.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 1
   30:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c **** *******************************************************************************/
   31:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c **** CY_ISR(I2C_1_I2C_ISR)
   32:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c **** {
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 2
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccWQpj2a.s 			page 2
 
 
   26              		.loc 1 32 0
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 1
   61:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****     * Add the master state check to track only the master errors when the master is active or
   62:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****     * track slave errors when the slave is active or idle.
   63:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****     * A special MMS case: in the address phase with misplaced Start: the master sets the LOST_ARB a
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 3
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccWQpj2a.s 			page 3
 
 
   64:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****     * slave BUS_ERR. The valid event is LOST_ARB comes from the master.
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 1
   81 003e 1268     		ldr	r2, [r2]
   82 0040 D207     		lsl	r2, r2, #31
   83 0042 06D5     		bpl	.L6
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 4
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccWQpj2a.s 			page 4
 
 
   88:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****             {
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 1
  106 0060 00E0     		b	.L7
  107              	.L34:
  108 0062 0222     		mov	r2, #2
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 5
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccWQpj2a.s 			page 5
 
 
  109              	.L7:
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 1
  168:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****                     else
  169:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****                     {
  170:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****                         /* Set I2C_FSM_EXIT_IDLE if any other state than address */
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 6
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccWQpj2a.s 			page 6
 
 
  171:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****                         I2C_1_state = I2C_1_I2C_FSM_EXIT_IDLE;
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 1
  213:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****         #endif
  214:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****     }
  215:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c **** 
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 7
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccWQpj2a.s 			page 7
 
 
  216:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****     /* States description:
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 1
  160 00a6 9A4B     		ldr	r3, .L41+12
  161 00a8 1A70     		strb	r2, [r3]
  162 00aa 29E1     		b	.L1
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 8
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccWQpj2a.s 			page 8
 
 
  163              	.LVL11:
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 1
  260:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****                     {
  261:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****                         if(I2C_1_CHECK_I2C_FSM_RD) /* Reading */
  193              		.loc 1 261 0
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 9
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccWQpj2a.s 			page 9
 
 
  194 00d2 8F4A     		ldr	r2, .L41+12
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 1
  230 0106 49D5     		bpl	.L16
  280:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****                     {
  281:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****                         /* INTR_RX_FULL:
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 10
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccWQpj2a.s 			page 10
 
 
  282:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****                         * RX direction: the master received 8 bytes.
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 1
  302:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****                                     diffCount   = I2C_1_I2C_FIFO_SIZE;
  303:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****                                     endTransfer = I2C_1_I2C_CMPLT_ANY_TRANSFER;
  264              		.loc 1 303 0
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 11
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccWQpj2a.s 			page 11
 
 
  265 0136 0123     		mov	r3, #1
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 1
  315:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****                         * RX direction: the master received one data byte, ACK or NACK it.
  316:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****                         * The last byte is stored and NACKed by the master. The NACK and Stop is
  317:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****                         * generated by one command generate Stop.
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 12
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccWQpj2a.s 			page 12
 
 
  318:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****                         */
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 1
  337:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****                         }
  338:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c **** 
  339:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****                         I2C_1_ClearRxInterruptSource(I2C_1_INTR_RX_ALL);
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 13
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccWQpj2a.s 			page 13
 
 
  338              		.loc 1 339 0
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 1
  356:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****                             /* Update number of transferred bytes */
  357:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****                             I2C_1_mstrWrBufIndex = I2C_1_mstrWrBufIndexTmp;
  374              		.loc 1 357 0 is_stmt 1 discriminator 4
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 14
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccWQpj2a.s 			page 14
 
 
  375 01c8 1268     		ldr	r2, [r2]
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 1
  378:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****                                 if(I2C_1_mstrWrBufIndexTmp < I2C_1_mstrWrBufSize)
  409              		.loc 1 378 0
  410 01fc 564A     		ldr	r2, .L41+84
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 15
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccWQpj2a.s 			page 15
 
 
  411 01fe 1168     		ldr	r1, [r2]
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 1
  439              		.loc 1 403 0
  440 022c 4A4A     		ldr	r2, .L41+84
  441 022e 1168     		ldr	r1, [r2]
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 16
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccWQpj2a.s 			page 16
 
 
  442 0230 3B4A     		ldr	r2, .L41+28
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 1
  427:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****                         }
  428:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****                     }
  429:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****                 }
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 17
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccWQpj2a.s 			page 17
 
 
  430:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c **** 
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 1
  510 028c 1380     		strh	r3, [r2]
  445:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c **** 
  446:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****                         I2C_1_state = I2C_1_I2C_FSM_MSTR_HALT;
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 18
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccWQpj2a.s 			page 18
 
 
  511              		.loc 1 446 0 is_stmt 1 discriminator 4
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 1
  473:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****             * The master completes reading the slave: the appropriate flags have to be set.
  474:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****             * The TX FIFO is cleared after an overflow condition is set.
  475:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****             */
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 19
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccWQpj2a.s 			page 19
 
 
  476:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****             if(I2C_1_CHECK_INTR_SLAVE_MASKED(I2C_1_INTR_SLAVE_I2C_NACK))
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 1
  530:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****                                 break; /* Leave address in RX FIFO */
  531:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****                             }
  532:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****                         }
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 20
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccWQpj2a.s 			page 20
 
 
  533:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****                         #endif
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 1
  587:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****                     }
  588:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c **** 
  589:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****                     /* Clears RX sources after address was received in the RX FIFO */
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 21
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccWQpj2a.s 			page 21
 
 
  590:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****                     I2C_1_ClearRxInterruptSource(I2C_1_INTR_RX_ALL);
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 1
  644:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****                             {
  645:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****                                 /* Stretch clock when RX FIFO becomes FULL */
  646:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****                                 I2C_1_ENABLE_SLAVE_AUTO_DATA_ACK;
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 22
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccWQpj2a.s 			page 22
 
 
  647:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****                                 I2C_1_SetRxInterruptMode(I2C_1_INTR_RX_FULL);
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 1
  701:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****                 }
  702:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****             }
  703:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c **** 
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 23
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccWQpj2a.s 			page 23
 
 
  704:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****             /* I2C_1_INTR_RX_FULL:
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 1
  758:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****                 {
  759:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****                     I2C_1_I2C_SLAVE_GENERATE_NACK;
  760:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c **** 
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 24
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccWQpj2a.s 			page 24
 
 
  761:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****                     I2C_1_slStatus |= (uint8) I2C_1_I2C_SSTAT_WR_OVFL;
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 1
  815:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****     */
  816:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****     else
  817:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****     {
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 25
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccWQpj2a.s 			page 25
 
 
  818:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****         I2C_1_CTRL_REG &= (uint32) ~I2C_1_CTRL_ENABLED; /* Disable scb IP */
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 1
  578 02ee 1960     		str	r1, [r3]
  833:.\Generated_Source\PSoC4/I2C_1_I2C_INT.c ****         I2C_1_ClearMasterInterruptSource(I2C_1_INTR_MASTER_ALL);
  579              		.loc 1 833 0
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 26
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccWQpj2a.s 			page 26
 
 
  580 02f0 2A49     		ldr	r1, .L41+152
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 1
  624 0374 F3070000 		.word	2035
  625 0378 800F0740 		.word	1074204544
  626 037c C80F0740 		.word	1074204616
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 27
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccWQpj2a.s 			page 27
 
 
  627 0380 00000000 		.word	I2C_1_mstrControl
@@ -1587,14 +1587,14 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 1
  650 000c 69010000 		.4byte	.LASF31
  651 0010 01       		.byte	0x1
  652 0011 73000000 		.4byte	.LASF32
- 653 0015 56020000 		.4byte	.LASF33
+ 653 0015 F7010000 		.4byte	.LASF33
  654 0019 00000000 		.4byte	.Ldebug_ranges0+0
  655 001d 00000000 		.4byte	0
  656 0021 00000000 		.4byte	.Ldebug_line0
  657 0025 02       		.uleb128 0x2
  658 0026 01       		.byte	0x1
  659 0027 06       		.byte	0x6
- 660 0028 4A020000 		.4byte	.LASF0
+ 660 0028 88020000 		.4byte	.LASF0
  661 002c 02       		.uleb128 0x2
  662 002d 01       		.byte	0x1
  663 002e 08       		.byte	0x8
@@ -1602,7 +1602,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 1
  665 0033 02       		.uleb128 0x2
  666 0034 02       		.byte	0x2
  667 0035 05       		.byte	0x5
- 668 0036 0A020000 		.4byte	.LASF2
+ 668 0036 48020000 		.4byte	.LASF2
  669 003a 02       		.uleb128 0x2
  670 003b 02       		.byte	0x2
  671 003c 07       		.byte	0x7
@@ -1610,7 +1610,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 1
  673 0041 02       		.uleb128 0x2
  674 0042 04       		.byte	0x4
  675 0043 05       		.byte	0x5
- 676 0044 41020000 		.4byte	.LASF4
+ 676 0044 7F020000 		.4byte	.LASF4
  677 0048 02       		.uleb128 0x2
  678 0049 04       		.byte	0x4
  679 004a 07       		.byte	0x7
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 1
  681 004f 02       		.uleb128 0x2
  682 0050 08       		.byte	0x8
  683 0051 05       		.byte	0x5
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 28
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccWQpj2a.s 			page 28
 
 
  684 0052 56010000 		.4byte	.LASF6
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 1
  738 00c5 5402     		.2byte	0x254
  739 00c7 CB000000 		.4byte	0xcb
  740 00cb 06       		.uleb128 0x6
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 29
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccWQpj2a.s 			page 29
 
 
  741 00cc 04       		.byte	0x4
@@ -1689,7 +1689,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 1
  746 00d4 07       		.byte	0x7
  747 00d5 4D010000 		.4byte	.LASF17
  748 00d9 08       		.uleb128 0x8
- 749 00da B7020000 		.4byte	.LASF34
+ 749 00da A8020000 		.4byte	.LASF34
  750 00de 01       		.byte	0x1
  751 00df 1F       		.byte	0x1f
  752 00e0 00000000 		.4byte	.LFB0
@@ -1711,7 +1711,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 1
  768 0108 35000000 		.4byte	.LLST1
  769 010c 00       		.byte	0
  770 010d 0A       		.uleb128 0xa
- 771 010e 14020000 		.4byte	.LASF20
+ 771 010e 52020000 		.4byte	.LASF20
  772 0112 03       		.byte	0x3
  773 0113 3B       		.byte	0x3b
  774 0114 BF000000 		.4byte	0xbf
@@ -1731,18 +1731,18 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 1
  788 0134 32       		.byte	0x32
  789 0135 A4000000 		.4byte	0xa4
  790 0139 0A       		.uleb128 0xa
- 791 013a F7010000 		.4byte	.LASF24
+ 791 013a 35020000 		.4byte	.LASF24
  792 013e 04       		.byte	0x4
  793 013f 35       		.byte	0x35
  794 0140 44010000 		.4byte	0x144
  795 0144 06       		.uleb128 0x6
  796 0145 04       		.byte	0x4
  797 0146 A4000000 		.4byte	0xa4
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 30
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccWQpj2a.s 			page 30
 
 
  798 014a 0A       		.uleb128 0xa
- 799 014b A3020000 		.4byte	.LASF25
+ 799 014b 94020000 		.4byte	.LASF25
  800 014f 04       		.byte	0x4
  801 0150 36       		.byte	0x36
  802 0151 BA000000 		.4byte	0xba
@@ -1762,7 +1762,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 1
  816 0171 3B       		.byte	0x3b
  817 0172 BA000000 		.4byte	0xba
  818 0176 0A       		.uleb128 0xa
- 819 0177 2C020000 		.4byte	.LASF29
+ 819 0177 6A020000 		.4byte	.LASF29
  820 017b 04       		.byte	0x4
  821 017c 3C       		.byte	0x3c
  822 017d BA000000 		.4byte	0xba
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 1
  852 0015 00       		.byte	0
  853 0016 0B       		.uleb128 0xb
  854 0017 0B       		.uleb128 0xb
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 31
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccWQpj2a.s 			page 31
 
 
  855 0018 3E       		.uleb128 0x3e
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 1
  909 004e 2E       		.uleb128 0x2e
  910 004f 01       		.byte	0x1
  911 0050 3F       		.uleb128 0x3f
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 32
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccWQpj2a.s 			page 32
 
 
  912 0051 19       		.uleb128 0x19
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 1
  966              		.section	.debug_loc,"",%progbits
  967              	.Ldebug_loc0:
  968              	.LLST0:
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 33
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccWQpj2a.s 			page 33
 
 
  969 0000 24010000 		.4byte	.LVL16
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 1
  1023 008b 8C000000 		.4byte	.LVL10
  1024 008f 0100     		.2byte	0x1
  1025 0091 53       		.byte	0x53
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 34
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccWQpj2a.s 			page 34
 
 
  1026 0092 AC000000 		.4byte	.LVL11
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 1
  1080 0010 00000000 		.4byte	.LFB0
  1081 0014 A0030000 		.4byte	.LFE0-.LFB0
  1082 0018 00000000 		.4byte	0
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 35
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccWQpj2a.s 			page 35
 
 
  1083 001c 00000000 		.4byte	0
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 1
  1108      7465645F 
  1108      536F7572 
  1108      63655C50 
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 36
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccWQpj2a.s 			page 36
 
 
  1109              	.LASF12:
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 1
  1134      74725374 
  1134      61747573 
  1134      00
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 37
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccWQpj2a.s 			page 37
 
 
  1135              	.LASF16:
@@ -2194,58 +2194,57 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 1
  1146      74696F6E 
  1146      2D736563 
  1146      74696F6E 
- 1147              	.LASF24:
- 1148 01f7 4932435F 		.ascii	"I2C_1_mstrRdBufPtr\000"
- 1148      315F6D73 
- 1148      74725264 
- 1148      42756650 
- 1148      747200
- 1149              	.LASF2:
- 1150 020a 73686F72 		.ascii	"short int\000"
- 1150      7420696E 
- 1150      7400
- 1151              	.LASF20:
- 1152 0214 4932435F 		.ascii	"I2C_1_customIntrHandler\000"
- 1152      315F6375 
- 1152      73746F6D 
- 1152      496E7472 
- 1152      48616E64 
- 1153              	.LASF29:
- 1154 022c 4932435F 		.ascii	"I2C_1_mstrWrBufIndex\000"
- 1154      315F6D73 
- 1154      74725772 
- 1154      42756649 
- 1154      6E646578 
- 1155              	.LASF4:
- 1156 0241 6C6F6E67 		.ascii	"long int\000"
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccTWcOsf.s 			page 38
+ 1147              	.LASF33:
+ 1148 01f7 433A5C55 		.ascii	"C:\\Users\\capslock\\Documents\\accelerometer\\PSoC"
+ 1148      73657273 
+ 1148      5C636170 
+ 1148      736C6F63 
+ 1148      6B5C446F 
+ 1149 0225 5C446573 		.ascii	"\\Design01.cydsn\000"
+ 1149      69676E30 
+ 1149      312E6379 
+ 1149      64736E00 
+ 1150              	.LASF24:
+ 1151 0235 4932435F 		.ascii	"I2C_1_mstrRdBufPtr\000"
+ 1151      315F6D73 
+ 1151      74725264 
+ 1151      42756650 
+ 1151      747200
+ 1152              	.LASF2:
+ 1153 0248 73686F72 		.ascii	"short int\000"
+ 1153      7420696E 
+ 1153      7400
+ 1154              	.LASF20:
+ 1155 0252 4932435F 		.ascii	"I2C_1_customIntrHandler\000"
+ 1155      315F6375 
+ 1155      73746F6D 
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccWQpj2a.s 			page 38
 
 
- 1156      20696E74 
- 1156      00
- 1157              	.LASF0:
- 1158 024a 7369676E 		.ascii	"signed char\000"
- 1158      65642063 
- 1158      68617200 
- 1159              	.LASF33:
- 1160 0256 433A5C55 		.ascii	"C:\\Users\\EmilR\\OneDrive\\Skole\\4. Semester\\PRJ"
- 1160      73657273 
- 1160      5C456D69 
- 1160      6C525C4F 
- 1160      6E654472 
- 1161 0283 345C6163 		.ascii	"4\\acc_v1_surface\\Design01.cydsn\000"
- 1161      635F7631 
- 1161      5F737572 
- 1161      66616365 
- 1161      5C446573 
+ 1155      496E7472 
+ 1155      48616E64 
+ 1156              	.LASF29:
+ 1157 026a 4932435F 		.ascii	"I2C_1_mstrWrBufIndex\000"
+ 1157      315F6D73 
+ 1157      74725772 
+ 1157      42756649 
+ 1157      6E646578 
+ 1158              	.LASF4:
+ 1159 027f 6C6F6E67 		.ascii	"long int\000"
+ 1159      20696E74 
+ 1159      00
+ 1160              	.LASF0:
+ 1161 0288 7369676E 		.ascii	"signed char\000"
+ 1161      65642063 
+ 1161      68617200 
  1162              	.LASF25:
- 1163 02a3 4932435F 		.ascii	"I2C_1_mstrRdBufSize\000"
+ 1163 0294 4932435F 		.ascii	"I2C_1_mstrRdBufSize\000"
  1163      315F6D73 
  1163      74725264 
  1163      42756653 
  1163      697A6500 
  1164              	.LASF34:
- 1165 02b7 4932435F 		.ascii	"I2C_1_I2C_ISR\000"
+ 1165 02a8 4932435F 		.ascii	"I2C_1_I2C_ISR\000"
  1165      315F4932 
  1165      435F4953 
  1165      5200

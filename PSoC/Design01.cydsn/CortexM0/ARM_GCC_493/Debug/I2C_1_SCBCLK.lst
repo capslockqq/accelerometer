@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccVLszTh.s 			page 1
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccsHT0wK.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccVLszTh.s 			page 1
   30:.\Generated_Source\PSoC4/I2C_1_SCBCLK.c **** *
   31:.\Generated_Source\PSoC4/I2C_1_SCBCLK.c **** * Parameters:
   32:.\Generated_Source\PSoC4/I2C_1_SCBCLK.c **** *  alignClkDiv:  The divider to which phase alignment is performed when the
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccVLszTh.s 			page 2
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccsHT0wK.s 			page 2
 
 
   33:.\Generated_Source\PSoC4/I2C_1_SCBCLK.c **** *    clock is started.
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccVLszTh.s 			page 1
   38              	.L3:
   39 000e C046     		.align	2
   40              	.L2:
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccVLszTh.s 			page 3
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccsHT0wK.s 			page 3
 
 
   41 0010 00000240 		.word	1073872896
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccVLszTh.s 			page 1
   57 0002 1368     		ldr	r3, [r2]
   58 0004 5B00     		lsl	r3, r3, #1
   59 0006 5B08     		lsr	r3, r3, #1
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccVLszTh.s 			page 4
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccsHT0wK.s 			page 4
 
 
   60 0008 1360     		str	r3, [r2]
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccVLszTh.s 			page 1
  145:.\Generated_Source\PSoC4/I2C_1_SCBCLK.c ****     regVal = maskVal |
  146:.\Generated_Source\PSoC4/I2C_1_SCBCLK.c ****         ((uint32)((uint32)clkDivider <<  I2C_1_SCBCLK_DIV_INT_SHIFT) & I2C_1_SCBCLK_DIV_INT_MASK) |
  147:.\Generated_Source\PSoC4/I2C_1_SCBCLK.c ****         ((uint32)((uint32)clkFractional << I2C_1_SCBCLK_DIV_FRAC_SHIFT) & I2C_1_SCBCLK_DIV_FRAC_MAS
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccVLszTh.s 			page 5
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccsHT0wK.s 			page 5
 
 
  148:.\Generated_Source\PSoC4/I2C_1_SCBCLK.c ****     
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccVLszTh.s 			page 1
  173:.\Generated_Source\PSoC4/I2C_1_SCBCLK.c **** *  divide by 2, the return value will be 1.
  174:.\Generated_Source\PSoC4/I2C_1_SCBCLK.c **** *
  175:.\Generated_Source\PSoC4/I2C_1_SCBCLK.c **** *******************************************************************************/
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccVLszTh.s 			page 6
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccsHT0wK.s 			page 6
 
 
  176:.\Generated_Source\PSoC4/I2C_1_SCBCLK.c **** uint16 I2C_1_SCBCLK_GetDividerRegister(void)
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccVLszTh.s 			page 1
  204:.\Generated_Source\PSoC4/I2C_1_SCBCLK.c **** #else
  205:.\Generated_Source\PSoC4/I2C_1_SCBCLK.c ****     return 0u;
  206:.\Generated_Source\PSoC4/I2C_1_SCBCLK.c **** #endif /* I2C_1_SCBCLK__FRAC_MASK */
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccVLszTh.s 			page 7
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccsHT0wK.s 			page 7
 
 
  207:.\Generated_Source\PSoC4/I2C_1_SCBCLK.c **** }
@@ -382,14 +382,14 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccVLszTh.s 			page 1
  154 000c 74010000 		.4byte	.LASF24
  155 0010 01       		.byte	0x1
  156 0011 42000000 		.4byte	.LASF25
- 157 0015 27020000 		.4byte	.LASF26
+ 157 0015 02020000 		.4byte	.LASF26
  158 0019 00000000 		.4byte	.Ldebug_ranges0+0
  159 001d 00000000 		.4byte	0
  160 0021 00000000 		.4byte	.Ldebug_line0
  161 0025 02       		.uleb128 0x2
  162 0026 01       		.byte	0x1
  163 0027 06       		.byte	0x6
- 164 0028 1B020000 		.4byte	.LASF0
+ 164 0028 59020000 		.4byte	.LASF0
  165 002c 02       		.uleb128 0x2
  166 002d 01       		.byte	0x1
  167 002e 08       		.byte	0x8
@@ -397,7 +397,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccVLszTh.s 			page 1
  169 0033 02       		.uleb128 0x2
  170 0034 02       		.byte	0x2
  171 0035 05       		.byte	0x5
- 172 0036 02020000 		.4byte	.LASF2
+ 172 0036 40020000 		.4byte	.LASF2
  173 003a 02       		.uleb128 0x2
  174 003b 02       		.byte	0x2
  175 003c 07       		.byte	0x7
@@ -405,7 +405,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccVLszTh.s 			page 1
  177 0041 02       		.uleb128 0x2
  178 0042 04       		.byte	0x4
  179 0043 05       		.byte	0x5
- 180 0044 12020000 		.4byte	.LASF4
+ 180 0044 50020000 		.4byte	.LASF4
  181 0048 02       		.uleb128 0x2
  182 0049 04       		.byte	0x4
  183 004a 07       		.byte	0x7
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccVLszTh.s 			page 1
  190 0057 08       		.byte	0x8
  191 0058 07       		.byte	0x7
  192 0059 0E010000 		.4byte	.LASF7
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccVLszTh.s 			page 8
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccsHT0wK.s 			page 8
 
 
  193 005d 03       		.uleb128 0x3
@@ -430,7 +430,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccVLszTh.s 			page 1
  199 0066 07       		.byte	0x7
  200 0067 D7000000 		.4byte	.LASF8
  201 006b 04       		.uleb128 0x4
- 202 006c 0C020000 		.4byte	.LASF9
+ 202 006c 4A020000 		.4byte	.LASF9
  203 0070 02       		.byte	0x2
  204 0071 9801     		.2byte	0x198
  205 0073 2C000000 		.4byte	0x2c
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccVLszTh.s 			page 1
  247 00cd 00000000 		.4byte	.LFB1
  248 00d1 10000000 		.4byte	.LFE1-.LFB1
  249 00d5 01       		.uleb128 0x1
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccVLszTh.s 			page 9
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccsHT0wK.s 			page 9
 
 
  250 00d6 9C       		.byte	0x9c
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccVLszTh.s 			page 1
  304 014b 01       		.uleb128 0x1
  305 014c 9C       		.byte	0x9c
  306 014d 00       		.byte	0
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccVLszTh.s 			page 10
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccsHT0wK.s 			page 10
 
 
  307              		.section	.debug_abbrev,"",%progbits
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccVLszTh.s 			page 1
  361 0034 00       		.byte	0
  362 0035 00       		.byte	0
  363 0036 05       		.uleb128 0x5
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccVLszTh.s 			page 11
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccsHT0wK.s 			page 11
 
 
  364 0037 35       		.uleb128 0x35
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccVLszTh.s 			page 1
  418 006f 08       		.uleb128 0x8
  419 0070 05       		.uleb128 0x5
  420 0071 00       		.byte	0
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccVLszTh.s 			page 12
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccsHT0wK.s 			page 12
 
 
  421 0072 03       		.uleb128 0x3
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccVLszTh.s 			page 1
  475 00a8 19       		.uleb128 0x19
  476 00a9 49       		.uleb128 0x49
  477 00aa 13       		.uleb128 0x13
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccVLszTh.s 			page 13
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccsHT0wK.s 			page 13
 
 
  478 00ab 11       		.uleb128 0x11
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccVLszTh.s 			page 1
  532 0014 14000000 		.4byte	.LFE2
  533 0018 00000000 		.4byte	.LFB3
  534 001c 0C000000 		.4byte	.LFE3
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccVLszTh.s 			page 14
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccsHT0wK.s 			page 14
 
 
  535 0020 00000000 		.4byte	.LFB4
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccVLszTh.s 			page 1
  561 009a 646F7562 		.ascii	"double\000"
  561      6C6500
  562              	.LASF21:
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccVLszTh.s 			page 15
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccsHT0wK.s 			page 15
 
 
  563 00a1 72656756 		.ascii	"regVal\000"
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccVLszTh.s 			page 1
  585      5F536574 
  585      46726163 
  586              	.LASF24:
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccVLszTh.s 			page 16
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccsHT0wK.s 			page 16
 
 
  587 0174 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
@@ -916,30 +916,29 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccVLszTh.s 			page 1
  589      74696F6E 
  589      2D736563 
  589      74696F6E 
- 590              	.LASF2:
- 591 0202 73686F72 		.ascii	"short int\000"
- 591      7420696E 
- 591      7400
- 592              	.LASF9:
- 593 020c 75696E74 		.ascii	"uint8\000"
- 593      3800
- 594              	.LASF4:
- 595 0212 6C6F6E67 		.ascii	"long int\000"
- 595      20696E74 
- 595      00
- 596              	.LASF0:
- 597 021b 7369676E 		.ascii	"signed char\000"
- 597      65642063 
- 597      68617200 
- 598              	.LASF26:
- 599 0227 433A5C55 		.ascii	"C:\\Users\\EmilR\\OneDrive\\Skole\\4. Semester\\PRJ"
- 599      73657273 
- 599      5C456D69 
- 599      6C525C4F 
- 599      6E654472 
- 600 0254 345C6163 		.ascii	"4\\acc_v1_surface\\Design01.cydsn\000"
- 600      635F7631 
- 600      5F737572 
- 600      66616365 
- 600      5C446573 
+ 590              	.LASF26:
+ 591 0202 433A5C55 		.ascii	"C:\\Users\\capslock\\Documents\\accelerometer\\PSoC"
+ 591      73657273 
+ 591      5C636170 
+ 591      736C6F63 
+ 591      6B5C446F 
+ 592 0230 5C446573 		.ascii	"\\Design01.cydsn\000"
+ 592      69676E30 
+ 592      312E6379 
+ 592      64736E00 
+ 593              	.LASF2:
+ 594 0240 73686F72 		.ascii	"short int\000"
+ 594      7420696E 
+ 594      7400
+ 595              	.LASF9:
+ 596 024a 75696E74 		.ascii	"uint8\000"
+ 596      3800
+ 597              	.LASF4:
+ 598 0250 6C6F6E67 		.ascii	"long int\000"
+ 598      20696E74 
+ 598      00
+ 599              	.LASF0:
+ 600 0259 7369676E 		.ascii	"signed char\000"
+ 600      65642063 
+ 600      68617200 
  601              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150303 (release) [ARM/embedded-4_9-br

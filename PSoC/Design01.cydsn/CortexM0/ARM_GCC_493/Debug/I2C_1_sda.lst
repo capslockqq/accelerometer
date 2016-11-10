@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccONQIGc.s 			page 1
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccgrWVNM.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccONQIGc.s 			page 1
   30:.\Generated_Source\PSoC4/I2C_1_sda.c ****         #define I2C_1_sda_SetP4PinDriveMode(shift, mode)  \
   31:.\Generated_Source\PSoC4/I2C_1_sda.c ****         do { \
   32:.\Generated_Source\PSoC4/I2C_1_sda.c ****             I2C_1_sda_USBIO_CTRL_REG = (I2C_1_sda_USBIO_CTRL_REG & \
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccONQIGc.s 			page 2
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccgrWVNM.s 			page 2
 
 
   33:.\Generated_Source\PSoC4/I2C_1_sda.c ****                                     (uint32)(~(uint32)(I2C_1_sda_DRIVE_MODE_IND_MASK << \
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccONQIGc.s 			page 1
   75:.\Generated_Source\PSoC4/I2C_1_sda.c ****     }
   38              		.loc 1 75 0
   39              		@ sp needed
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccONQIGc.s 			page 3
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccgrWVNM.s 			page 3
 
 
   40 000e 7047     		bx	lr
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccONQIGc.s 			page 1
   57              		.cfi_startproc
   58              	.LVL2:
  113:.\Generated_Source\PSoC4/I2C_1_sda.c ****     uint8 drVal = (uint8)(I2C_1_sda_DR & (uint8)(~I2C_1_sda_MASK));
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccONQIGc.s 			page 4
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccgrWVNM.s 			page 4
 
 
   59              		.loc 1 113 0
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccONQIGc.s 			page 1
  135:.\Generated_Source\PSoC4/I2C_1_sda.c **** *******************************************************************************/
  136:.\Generated_Source\PSoC4/I2C_1_sda.c **** uint8 I2C_1_sda_Read(void)
  137:.\Generated_Source\PSoC4/I2C_1_sda.c **** {
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccONQIGc.s 			page 5
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccgrWVNM.s 			page 5
 
 
   92              		.loc 1 137 0
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccONQIGc.s 			page 1
  118              		.cfi_startproc
  166:.\Generated_Source\PSoC4/I2C_1_sda.c ****     return (uint8)((I2C_1_sda_DR & I2C_1_sda_MASK) >> I2C_1_sda_SHIFT);
  119              		.loc 1 166 0
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccONQIGc.s 			page 6
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccgrWVNM.s 			page 6
 
 
  120 0000 024B     		ldr	r3, .L11
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccONQIGc.s 			page 1
  199:.\Generated_Source\PSoC4/I2C_1_sda.c **** *  It is recommended that the interrupt be disabled before calling this 
  200:.\Generated_Source\PSoC4/I2C_1_sda.c **** *  function to avoid unintended interrupt requests. Note that the interrupt
  201:.\Generated_Source\PSoC4/I2C_1_sda.c **** *  type is port wide, and therefore will trigger for any enabled pin on the 
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccONQIGc.s 			page 7
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccgrWVNM.s 			page 7
 
 
  202:.\Generated_Source\PSoC4/I2C_1_sda.c **** *  port.
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccONQIGc.s 			page 1
  225:.\Generated_Source\PSoC4/I2C_1_sda.c **** *  The right-shifted current value of the interrupt status register. Each pin 
  226:.\Generated_Source\PSoC4/I2C_1_sda.c **** *  has one bit set if it generated an interrupt event. For example, bit 0 is 
  227:.\Generated_Source\PSoC4/I2C_1_sda.c **** *  for pin 0 and bit 1 is for pin 1 of the Pins component.
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccONQIGc.s 			page 8
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccgrWVNM.s 			page 8
 
 
  228:.\Generated_Source\PSoC4/I2C_1_sda.c **** *  
@@ -472,17 +472,17 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccONQIGc.s 			page 1
  207 000c 46010000 		.4byte	.LASF28
  208 0010 01       		.byte	0x1
  209 0011 27000000 		.4byte	.LASF29
- 210 0015 12020000 		.4byte	.LASF30
+ 210 0015 D4010000 		.4byte	.LASF30
  211 0019 00000000 		.4byte	.Ldebug_ranges0+0
  212 001d 00000000 		.4byte	0
  213 0021 00000000 		.4byte	.Ldebug_line0
  214 0025 02       		.uleb128 0x2
  215 0026 01       		.byte	0x1
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccONQIGc.s 			page 9
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccgrWVNM.s 			page 9
 
 
  216 0027 06       		.byte	0x6
- 217 0028 06020000 		.4byte	.LASF0
+ 217 0028 44020000 		.4byte	.LASF0
  218 002c 02       		.uleb128 0x2
  219 002d 01       		.byte	0x1
  220 002e 08       		.byte	0x8
@@ -490,7 +490,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccONQIGc.s 			page 1
  222 0033 02       		.uleb128 0x2
  223 0034 02       		.byte	0x2
  224 0035 05       		.byte	0x5
- 225 0036 ED010000 		.4byte	.LASF2
+ 225 0036 2B020000 		.4byte	.LASF2
  226 003a 02       		.uleb128 0x2
  227 003b 02       		.byte	0x2
  228 003c 07       		.byte	0x7
@@ -498,7 +498,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccONQIGc.s 			page 1
  230 0041 02       		.uleb128 0x2
  231 0042 04       		.byte	0x4
  232 0043 05       		.byte	0x5
- 233 0044 FD010000 		.4byte	.LASF4
+ 233 0044 3B020000 		.4byte	.LASF4
  234 0048 02       		.uleb128 0x2
  235 0049 04       		.byte	0x4
  236 004a 07       		.byte	0x7
@@ -520,7 +520,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccONQIGc.s 			page 1
  252 0066 07       		.byte	0x7
  253 0067 D7000000 		.4byte	.LASF8
  254 006b 04       		.uleb128 0x4
- 255 006c F7010000 		.4byte	.LASF9
+ 255 006c 35020000 		.4byte	.LASF9
  256 0070 02       		.byte	0x2
  257 0071 9801     		.2byte	0x198
  258 0073 2C000000 		.4byte	0x2c
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccONQIGc.s 			page 1
  270 0090 04       		.byte	0x4
  271 0091 04       		.byte	0x4
  272 0092 5B000000 		.4byte	.LASF12
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccONQIGc.s 			page 10
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccgrWVNM.s 			page 10
 
 
  273 0096 02       		.uleb128 0x2
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccONQIGc.s 			page 1
  327 010f 4C000000 		.4byte	.LASF20
  328 0113 01       		.byte	0x1
  329 0114 88       		.byte	0x88
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccONQIGc.s 			page 11
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccgrWVNM.s 			page 11
 
 
  330 0115 6B000000 		.4byte	0x6b
@@ -646,7 +646,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccONQIGc.s 			page 1
  372 0175 53       		.byte	0x53
  373 0176 00       		.byte	0
  374 0177 0C       		.uleb128 0xc
- 375 0178 D4010000 		.4byte	.LASF26
+ 375 0178 12020000 		.4byte	.LASF26
  376 017c 01       		.byte	0x1
  377 017d EC       		.byte	0xec
  378 017e 6B000000 		.4byte	0x6b
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccONQIGc.s 			page 1
  384 018d 1E010000 		.4byte	.LASF27
  385 0191 01       		.byte	0x1
  386 0192 EE       		.byte	0xee
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccONQIGc.s 			page 12
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccgrWVNM.s 			page 12
 
 
  387 0193 6B000000 		.4byte	0x6b
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccONQIGc.s 			page 1
  441 0030 3B       		.uleb128 0x3b
  442 0031 05       		.uleb128 0x5
  443 0032 49       		.uleb128 0x49
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccONQIGc.s 			page 13
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccgrWVNM.s 			page 13
 
 
  444 0033 13       		.uleb128 0x13
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccONQIGc.s 			page 1
  498 006a 0E       		.uleb128 0xe
  499 006b 3A       		.uleb128 0x3a
  500 006c 0B       		.uleb128 0xb
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccONQIGc.s 			page 14
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccgrWVNM.s 			page 14
 
 
  501 006d 3B       		.uleb128 0x3b
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccONQIGc.s 			page 1
  555 00a4 0B       		.uleb128 0xb
  556 00a5 3B       		.uleb128 0x3b
  557 00a6 0B       		.uleb128 0xb
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccONQIGc.s 			page 15
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccgrWVNM.s 			page 15
 
 
  558 00a7 49       		.uleb128 0x49
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccONQIGc.s 			page 1
  612 0030 18000000 		.4byte	.LFE1
  613 0034 0400     		.2byte	0x4
  614 0036 F3       		.byte	0xf3
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccONQIGc.s 			page 16
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccgrWVNM.s 			page 16
 
 
  615 0037 01       		.uleb128 0x1
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccONQIGc.s 			page 1
  669 0018 00000000 		.4byte	.LFB1
  670 001c 18000000 		.4byte	.LFE1-.LFB1
  671 0020 00000000 		.4byte	.LFB2
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccONQIGc.s 			page 17
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccgrWVNM.s 			page 17
 
 
  672 0024 10000000 		.4byte	.LFE2-.LFB2
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccONQIGc.s 			page 1
  709      616400
  710              	.LASF12:
  711 005b 666C6F61 		.ascii	"float\000"
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccONQIGc.s 			page 18
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccgrWVNM.s 			page 18
 
 
  711      7400
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccONQIGc.s 			page 1
  736              	.LASF18:
  737 00fb 6D6F6465 		.ascii	"mode\000"
  737      00
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccONQIGc.s 			page 19
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccgrWVNM.s 			page 19
 
 
  738              	.LASF17:
@@ -1121,39 +1121,38 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccONQIGc.s 			page 1
  751      74696F6E 
  751      2D736563 
  751      74696F6E 
- 752              	.LASF26:
- 753 01d4 4932435F 		.ascii	"I2C_1_sda_ClearInterrupt\000"
- 753      315F7364 
- 753      615F436C 
- 753      65617249 
- 753      6E746572 
- 754              	.LASF2:
- 755 01ed 73686F72 		.ascii	"short int\000"
- 755      7420696E 
- 755      7400
- 756              	.LASF9:
- 757 01f7 75696E74 		.ascii	"uint8\000"
- 757      3800
- 758              	.LASF4:
- 759 01fd 6C6F6E67 		.ascii	"long int\000"
- 759      20696E74 
- 759      00
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccONQIGc.s 			page 20
+ 752              	.LASF30:
+ 753 01d4 433A5C55 		.ascii	"C:\\Users\\capslock\\Documents\\accelerometer\\PSoC"
+ 753      73657273 
+ 753      5C636170 
+ 753      736C6F63 
+ 753      6B5C446F 
+ 754 0202 5C446573 		.ascii	"\\Design01.cydsn\000"
+ 754      69676E30 
+ 754      312E6379 
+ 754      64736E00 
+ 755              	.LASF26:
+ 756 0212 4932435F 		.ascii	"I2C_1_sda_ClearInterrupt\000"
+ 756      315F7364 
+ 756      615F436C 
+ 756      65617249 
+ 756      6E746572 
+ 757              	.LASF2:
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccgrWVNM.s 			page 20
 
 
- 760              	.LASF0:
- 761 0206 7369676E 		.ascii	"signed char\000"
- 761      65642063 
- 761      68617200 
- 762              	.LASF30:
- 763 0212 433A5C55 		.ascii	"C:\\Users\\EmilR\\OneDrive\\Skole\\4. Semester\\PRJ"
- 763      73657273 
- 763      5C456D69 
- 763      6C525C4F 
- 763      6E654472 
- 764 023f 345C6163 		.ascii	"4\\acc_v1_surface\\Design01.cydsn\000"
- 764      635F7631 
- 764      5F737572 
- 764      66616365 
- 764      5C446573 
+ 758 022b 73686F72 		.ascii	"short int\000"
+ 758      7420696E 
+ 758      7400
+ 759              	.LASF9:
+ 760 0235 75696E74 		.ascii	"uint8\000"
+ 760      3800
+ 761              	.LASF4:
+ 762 023b 6C6F6E67 		.ascii	"long int\000"
+ 762      20696E74 
+ 762      00
+ 763              	.LASF0:
+ 764 0244 7369676E 		.ascii	"signed char\000"
+ 764      65642063 
+ 764      68617200 
  765              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150303 (release) [ARM/embedded-4_9-br
