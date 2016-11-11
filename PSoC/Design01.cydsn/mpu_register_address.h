@@ -3,6 +3,8 @@
 
 #ifndef _MPU_REGISTER_ADDRESS_H_
 #define _MPU_REGISTER_ADDRESS_H_
+
+#define AVGFILTER_M 10    
     
 #define I2C_SLAVE_ADDR  		0x69
 #define WHO_AM_I 				0x75

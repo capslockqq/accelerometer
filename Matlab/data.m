@@ -28,7 +28,7 @@ fopen(s);
 tolerance = 200;
 c = 0;
 b = 0;
-    
+countx = 0;    
 
 
 %figure;
@@ -39,6 +39,7 @@ x = 0 ;
 y = 0;
 z = 0;
 v = 0;
+p = 0;
 output_integral = 0;
 startSpot = 0;
 interv = 10000 ; % considering 1000 samples
@@ -48,6 +49,7 @@ M = 5;
 midlings_filter = ones(1, M);
 output = zeros(1,1);
 velocity = zeros(1, interv);
+position = zeros(1, interv);
 integral = zeros(1,interv);
 
 
@@ -110,16 +112,32 @@ k = k*signed;
       end
       y = [y, output];
       
-      subplot(2,1,1);
+      subplot(3,1,1);
+      
       plot(y) ;
+      title('Acceleration');
       drawnow;
       
      
       if t > 1
-         velocity(t) = velocity(t-1) + y(t)+((y(t)+y(t-1))/2)*t;
+         velocity(t) = velocity(t-1) + y(t)+((y(t)+y(t-1))/2);
+         position(t) = position(t-1) + +velocity(t)+((velocity(t)-velocity(t-1))/2);
+         if y(t) == 0
+            countx = countx+1;
+         else
+            countx = 0;
+         end
+         if countx >= 2
+            velocity(t) = 0;
+         end
          v = [v, velocity(t)];
-         subplot(2,1,2);    
+         subplot(3,1,2);    
          plot(v);
+         title('Velocity');
+         p = [p, position(t)];
+         subplot(3,1,3);
+         plot(p);
+         title('Position');
          
      
       end

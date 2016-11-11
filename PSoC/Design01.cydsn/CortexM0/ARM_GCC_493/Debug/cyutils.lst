@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccY1bsyv.s 			page 1
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccBAISGY.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccY1bsyv.s 			page 1
   30:.\Generated_Source\PSoC4/cyutils.c ****     ***************************************************************************/
   31:.\Generated_Source\PSoC4/cyutils.c ****     void CySetReg24(uint32 volatile * addr, uint32 value)
   32:.\Generated_Source\PSoC4/cyutils.c ****     {
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccY1bsyv.s 			page 2
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccBAISGY.s 			page 2
 
 
   26              		.loc 1 32 0
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccY1bsyv.s 			page 1
   55              		.loc 1 57 0
   56              		.cfi_startproc
   57              	.LVL2:
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccY1bsyv.s 			page 3
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccBAISGY.s 			page 3
 
 
   58:.\Generated_Source\PSoC4/cyutils.c ****             uint8 const volatile *tmpAddr;
@@ -165,25 +165,25 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccY1bsyv.s 			page 1
   88 000c CA000000 		.4byte	.LASF17
   89 0010 01       		.byte	0x1
   90 0011 62000000 		.4byte	.LASF18
-  91 0015 7D010000 		.4byte	.LASF19
+  91 0015 58010000 		.4byte	.LASF19
   92 0019 00000000 		.4byte	.Ldebug_ranges0+0
   93 001d 00000000 		.4byte	0
   94 0021 00000000 		.4byte	.Ldebug_line0
   95 0025 02       		.uleb128 0x2
   96 0026 01       		.byte	0x1
   97 0027 06       		.byte	0x6
-  98 0028 71010000 		.4byte	.LASF0
+  98 0028 AF010000 		.4byte	.LASF0
   99 002c 02       		.uleb128 0x2
  100 002d 01       		.byte	0x1
  101 002e 08       		.byte	0x8
  102 002f 27000000 		.4byte	.LASF1
  103 0033 02       		.uleb128 0x2
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccY1bsyv.s 			page 4
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccBAISGY.s 			page 4
 
 
  104 0034 02       		.byte	0x2
  105 0035 05       		.byte	0x5
- 106 0036 58010000 		.4byte	.LASF2
+ 106 0036 96010000 		.4byte	.LASF2
  107 003a 02       		.uleb128 0x2
  108 003b 02       		.byte	0x2
  109 003c 07       		.byte	0x7
@@ -191,7 +191,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccY1bsyv.s 			page 1
  111 0041 02       		.uleb128 0x2
  112 0042 04       		.byte	0x4
  113 0043 05       		.byte	0x5
- 114 0044 68010000 		.4byte	.LASF4
+ 114 0044 A6010000 		.4byte	.LASF4
  115 0048 02       		.uleb128 0x2
  116 0049 04       		.byte	0x4
  117 004a 07       		.byte	0x7
@@ -213,7 +213,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccY1bsyv.s 			page 1
  133 0066 07       		.byte	0x7
  134 0067 93000000 		.4byte	.LASF8
  135 006b 04       		.uleb128 0x4
- 136 006c 62010000 		.4byte	.LASF9
+ 136 006c A0010000 		.4byte	.LASF9
  137 0070 02       		.byte	0x2
  138 0071 9801     		.2byte	0x198
  139 0073 2C000000 		.4byte	0x2c
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccY1bsyv.s 			page 1
  158 0099 6B000000 		.4byte	0x6b
  159 009d 05       		.uleb128 0x5
  160 009e 77000000 		.4byte	0x77
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccY1bsyv.s 			page 5
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccBAISGY.s 			page 5
 
 
  161 00a2 06       		.uleb128 0x6
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccY1bsyv.s 			page 1
  215 011a 01       		.byte	0x1
  216 011b 3A       		.byte	0x3a
  217 011c 3F010000 		.4byte	0x13f
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccY1bsyv.s 			page 6
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccBAISGY.s 			page 6
 
 
  218 0120 21000000 		.4byte	.LLST1
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccY1bsyv.s 			page 1
  272 0021 0B       		.uleb128 0xb
  273 0022 0B       		.uleb128 0xb
  274 0023 3E       		.uleb128 0x3e
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccY1bsyv.s 			page 7
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccBAISGY.s 			page 7
 
 
  275 0024 0B       		.uleb128 0xb
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccY1bsyv.s 			page 1
  329 005b 0E       		.uleb128 0xe
  330 005c 3A       		.uleb128 0x3a
  331 005d 0B       		.uleb128 0xb
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccY1bsyv.s 			page 8
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccBAISGY.s 			page 8
 
 
  332 005e 3B       		.uleb128 0x3b
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccY1bsyv.s 			page 1
  386 0094 3A       		.uleb128 0x3a
  387 0095 0B       		.uleb128 0xb
  388 0096 3B       		.uleb128 0x3b
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccY1bsyv.s 			page 9
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccBAISGY.s 			page 9
 
 
  389 0097 0B       		.uleb128 0xb
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccY1bsyv.s 			page 1
  443 0019 00000000 		.4byte	0
  444 001d 00000000 		.4byte	0
  445              	.LLST1:
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccY1bsyv.s 			page 10
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccBAISGY.s 			page 10
 
 
  446 0021 00000000 		.4byte	.LVL2
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccY1bsyv.s 			page 1
  500 0014 00000000 		.4byte	0
  501              		.section	.debug_line,"",%progbits
  502              	.Ldebug_line0:
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccY1bsyv.s 			page 11
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccBAISGY.s 			page 11
 
 
  503 0000 72000000 		.section	.debug_str,"MS",%progbits,1
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccY1bsyv.s 			page 1
  528              	.LASF8:
  529 0093 756E7369 		.ascii	"unsigned int\000"
  529      676E6564 
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccY1bsyv.s 			page 12
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccBAISGY.s 			page 12
 
 
  529      20696E74 
@@ -693,33 +693,32 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccY1bsyv.s 			page 1
  539      74696F6E 
  539      2D736563 
  539      74696F6E 
- 540              	.LASF2:
- 541 0158 73686F72 		.ascii	"short int\000"
- 541      7420696E 
- 541      7400
- 542              	.LASF9:
- 543 0162 75696E74 		.ascii	"uint8\000"
- 543      3800
- 544              	.LASF4:
- 545 0168 6C6F6E67 		.ascii	"long int\000"
- 545      20696E74 
- 545      00
- 546              	.LASF0:
- 547 0171 7369676E 		.ascii	"signed char\000"
- 547      65642063 
- 547      68617200 
- 548              	.LASF19:
- 549 017d 433A5C55 		.ascii	"C:\\Users\\EmilR\\OneDrive\\Skole\\4. Semester\\PRJ"
- 549      73657273 
- 549      5C456D69 
- 549      6C525C4F 
- 549      6E654472 
- 550 01aa 345C6163 		.ascii	"4\\acc_v1_surface\\Design01.cydsn\000"
- 550      635F7631 
- 550      5F737572 
- 550      66616365 
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccY1bsyv.s 			page 13
+ 540              	.LASF19:
+ 541 0158 433A5C55 		.ascii	"C:\\Users\\capslock\\Documents\\accelerometer\\PSoC"
+ 541      73657273 
+ 541      5C636170 
+ 541      736C6F63 
+ 541      6B5C446F 
+ 542 0186 5C446573 		.ascii	"\\Design01.cydsn\000"
+ 542      69676E30 
+ 542      312E6379 
+ 542      64736E00 
+ 543              	.LASF2:
+ 544 0196 73686F72 		.ascii	"short int\000"
+ 544      7420696E 
+ 544      7400
+ 545              	.LASF9:
+ 546 01a0 75696E74 		.ascii	"uint8\000"
+ 546      3800
+ 547              	.LASF4:
+ 548 01a6 6C6F6E67 		.ascii	"long int\000"
+ 548      20696E74 
+ 548      00
+ 549              	.LASF0:
+ 550 01af 7369676E 		.ascii	"signed char\000"
+ 550      65642063 
+ 550      68617200 
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccBAISGY.s 			page 13
 
 
- 550      5C446573 
  551              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150303 (release) [ARM/embedded-4_9-br

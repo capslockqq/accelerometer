@@ -999,7 +999,7 @@ END GROUP
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000     0x424b
+.debug_info     0x00000000     0x423c
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x00000000      0x4cf .\CortexM0\ARM_GCC_493\Debug\main.o
  .debug_info    0x000004cf      0x741 .\CortexM0\ARM_GCC_493\Debug\functions.o
@@ -1015,9 +1015,9 @@ END GROUP
  .debug_info    0x00003770      0x19b .\CortexM0\ARM_GCC_493\Debug\Design01.a(I2C_1_scl.o)
  .debug_info    0x0000390b      0x239 .\CortexM0\ARM_GCC_493\Debug\Design01.a(PC_PSoC_UART.o)
  .debug_info    0x00003b44      0x2c4 .\CortexM0\ARM_GCC_493\Debug\Design01.a(PC_PSoC_UART_UART.o)
- .debug_info    0x00003e08       0x9d .\CortexM0\ARM_GCC_493\Debug\Design01.a(CyBootAsmGnu.o)
- .debug_info    0x00003ea5      0x18d .\CortexM0\ARM_GCC_493\Debug\Design01.a(I2C_1_I2C_INT.o)
- .debug_info    0x00004032      0x219 .\CortexM0\ARM_GCC_493\Debug\Design01.a(PC_PSoC_UART_SPI_UART.o)
+ .debug_info    0x00003e08       0x8e .\CortexM0\ARM_GCC_493\Debug\Design01.a(CyBootAsmGnu.o)
+ .debug_info    0x00003e96      0x18d .\CortexM0\ARM_GCC_493\Debug\Design01.a(I2C_1_I2C_INT.o)
+ .debug_info    0x00004023      0x219 .\CortexM0\ARM_GCC_493\Debug\Design01.a(PC_PSoC_UART_SPI_UART.o)
 
 .debug_abbrev   0x00000000     0x1549
  *(.debug_abbrev)
@@ -1096,40 +1096,40 @@ END GROUP
  .debug_frame   0x0000133c       0x30 c:/program files (x86)/cypress/psoc creator/3.3/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-reallocr.o)
  .debug_frame   0x0000136c       0x20 c:/program files (x86)/cypress/psoc creator/3.3/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-msizer.o)
 
-.debug_str      0x00000000     0x194c
+.debug_str      0x00000000     0x193d
  *(.debug_str)
- .debug_str     0x00000000      0x2c5 .\CortexM0\ARM_GCC_493\Debug\main.o
-                                0x330 (size before relaxing)
- .debug_str     0x000002c5      0x16b .\CortexM0\ARM_GCC_493\Debug\functions.o
-                                0x41a (size before relaxing)
- .debug_str     0x00000430       0x5b .\CortexM0\ARM_GCC_493\Debug\cymetadata.o
-                                0x1db (size before relaxing)
- .debug_str     0x0000048b      0x14a .\CortexM0\ARM_GCC_493\Debug\Cm0Start.o
-                                0x302 (size before relaxing)
- .debug_str     0x000005d5       0x96 .\CortexM0\ARM_GCC_493\Debug\Design01.a(cyfitter_cfg.o)
-                                0x258 (size before relaxing)
- .debug_str     0x0000066b      0x4a3 .\CortexM0\ARM_GCC_493\Debug\Design01.a(CyLib.o)
-                                0x696 (size before relaxing)
- .debug_str     0x00000b0e      0x539 .\CortexM0\ARM_GCC_493\Debug\Design01.a(CyLFClk.o)
-                                0x73e (size before relaxing)
- .debug_str     0x00001047      0x134 .\CortexM0\ARM_GCC_493\Debug\Design01.a(I2C_1.o)
-                                0x2f8 (size before relaxing)
- .debug_str     0x0000117b       0x6c .\CortexM0\ARM_GCC_493\Debug\Design01.a(I2C_1_I2C.o)
-                                0x256 (size before relaxing)
- .debug_str     0x000011e7      0x224 .\CortexM0\ARM_GCC_493\Debug\Design01.a(I2C_1_I2C_MASTER.o)
-                                0x48e (size before relaxing)
- .debug_str     0x0000140b       0xa3 .\CortexM0\ARM_GCC_493\Debug\Design01.a(I2C_1_sda.o)
-                                0x25f (size before relaxing)
- .debug_str     0x000014ae       0x6f .\CortexM0\ARM_GCC_493\Debug\Design01.a(I2C_1_scl.o)
-                                0x25f (size before relaxing)
- .debug_str     0x0000151d      0x169 .\CortexM0\ARM_GCC_493\Debug\Design01.a(PC_PSoC_UART.o)
-                                0x32c (size before relaxing)
- .debug_str     0x00001686      0x15c .\CortexM0\ARM_GCC_493\Debug\Design01.a(PC_PSoC_UART_UART.o)
-                                0x373 (size before relaxing)
- .debug_str     0x000017e2       0x4d .\CortexM0\ARM_GCC_493\Debug\Design01.a(I2C_1_I2C_INT.o)
-                                0x2c5 (size before relaxing)
- .debug_str     0x0000182f      0x11d .\CortexM0\ARM_GCC_493\Debug\Design01.a(PC_PSoC_UART_SPI_UART.o)
-                                0x31f (size before relaxing)
+ .debug_str     0x00000000      0x2b6 .\CortexM0\ARM_GCC_493\Debug\main.o
+                                0x321 (size before relaxing)
+ .debug_str     0x000002b6      0x16b .\CortexM0\ARM_GCC_493\Debug\functions.o
+                                0x40b (size before relaxing)
+ .debug_str     0x00000421       0x5b .\CortexM0\ARM_GCC_493\Debug\cymetadata.o
+                                0x1cc (size before relaxing)
+ .debug_str     0x0000047c      0x14a .\CortexM0\ARM_GCC_493\Debug\Cm0Start.o
+                                0x2f3 (size before relaxing)
+ .debug_str     0x000005c6       0x96 .\CortexM0\ARM_GCC_493\Debug\Design01.a(cyfitter_cfg.o)
+                                0x249 (size before relaxing)
+ .debug_str     0x0000065c      0x4a3 .\CortexM0\ARM_GCC_493\Debug\Design01.a(CyLib.o)
+                                0x687 (size before relaxing)
+ .debug_str     0x00000aff      0x539 .\CortexM0\ARM_GCC_493\Debug\Design01.a(CyLFClk.o)
+                                0x72f (size before relaxing)
+ .debug_str     0x00001038      0x134 .\CortexM0\ARM_GCC_493\Debug\Design01.a(I2C_1.o)
+                                0x2e9 (size before relaxing)
+ .debug_str     0x0000116c       0x6c .\CortexM0\ARM_GCC_493\Debug\Design01.a(I2C_1_I2C.o)
+                                0x247 (size before relaxing)
+ .debug_str     0x000011d8      0x224 .\CortexM0\ARM_GCC_493\Debug\Design01.a(I2C_1_I2C_MASTER.o)
+                                0x47f (size before relaxing)
+ .debug_str     0x000013fc       0xa3 .\CortexM0\ARM_GCC_493\Debug\Design01.a(I2C_1_sda.o)
+                                0x250 (size before relaxing)
+ .debug_str     0x0000149f       0x6f .\CortexM0\ARM_GCC_493\Debug\Design01.a(I2C_1_scl.o)
+                                0x250 (size before relaxing)
+ .debug_str     0x0000150e      0x169 .\CortexM0\ARM_GCC_493\Debug\Design01.a(PC_PSoC_UART.o)
+                                0x31d (size before relaxing)
+ .debug_str     0x00001677      0x15c .\CortexM0\ARM_GCC_493\Debug\Design01.a(PC_PSoC_UART_UART.o)
+                                0x364 (size before relaxing)
+ .debug_str     0x000017d3       0x4d .\CortexM0\ARM_GCC_493\Debug\Design01.a(I2C_1_I2C_INT.o)
+                                0x2b6 (size before relaxing)
+ .debug_str     0x00001820      0x11d .\CortexM0\ARM_GCC_493\Debug\Design01.a(PC_PSoC_UART_SPI_UART.o)
+                                0x310 (size before relaxing)
 
 .debug_loc      0x00000000     0x2292
  *(.debug_loc)

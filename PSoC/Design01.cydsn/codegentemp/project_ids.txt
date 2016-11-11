@@ -1,5 +1,5 @@
-C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|a688c1ae-96af-4bd8-a839-0a002fef5132
-C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|af401cf8-922b-4120-9828-86afbad78db6
-C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|8ede0a9c-8b09-45f2-ad73-9e1f11ed9ed9
-C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|104d2fbe-e580-4827-9ec6-ae51dbd8eea2
-C:\Users\EmilR\OneDrive\Skole\4. Semester\PRJ4\acc_v1_surface\Design01.cydsn\Design01.cyprj|f0cb4bb6-9a96-4d4f-83ba-879b4b87d51d
+C:\Users\capslock\Documents\accelerometer\PSoC\Design01.cydsn\Design01.cyprj|e0f04288-1b6f-4cf4-8991-a82afd870760
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|0e4ddc81-4c76-4835-acc5-119dd4f7a1eb
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|4e8b8935-d3f6-49c9-8a42-4226d5ae09a3
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|4ad1ce25-584c-4879-8cdc-c2bc587d39d2
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|041b1d7e-76e7-4514-94fa-b2152a2b7a27

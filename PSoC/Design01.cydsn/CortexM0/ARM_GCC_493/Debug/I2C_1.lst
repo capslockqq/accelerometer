@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccPDbpth.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
   31:.\Generated_Source\PSoC4/I2C_1.c **** 
   32:.\Generated_Source\PSoC4/I2C_1.c **** 
   33:.\Generated_Source\PSoC4/I2C_1.c **** /***************************************
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 2
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccPDbpth.s 			page 2
 
 
   34:.\Generated_Source\PSoC4/I2C_1.c **** *    Run Time Configuration Vars
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
   88:.\Generated_Source\PSoC4/I2C_1.c ****     * will be restored on a subsequent I2C_1_Enable() call.
   89:.\Generated_Source\PSoC4/I2C_1.c ****     */
   90:.\Generated_Source\PSoC4/I2C_1.c ****     uint16 I2C_1_IntrTxMask = 0u;
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 3
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccPDbpth.s 			page 3
 
 
   91:.\Generated_Source\PSoC4/I2C_1.c **** #endif /* (! (I2C_1_SCB_MODE_I2C_CONST_CFG || \
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
  145:.\Generated_Source\PSoC4/I2C_1.c ****     I2C_1_EzI2CInit();
  146:.\Generated_Source\PSoC4/I2C_1.c **** 
  147:.\Generated_Source\PSoC4/I2C_1.c **** #endif /* (I2C_1_SCB_MODE_UNCONFIG_CONST_CFG) */
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 4
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccPDbpth.s 			page 4
 
 
  148:.\Generated_Source\PSoC4/I2C_1.c **** }
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
  202:.\Generated_Source\PSoC4/I2C_1.c **** *  initialized to operate in one of the following configurations: I2C, SPI, UART
  203:.\Generated_Source\PSoC4/I2C_1.c **** *  or EZI2C. Otherwise this function does not enable the component.
  204:.\Generated_Source\PSoC4/I2C_1.c **** *
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 5
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccPDbpth.s 			page 5
 
 
  205:.\Generated_Source\PSoC4/I2C_1.c **** * \globalvars
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
  259:.\Generated_Source\PSoC4/I2C_1.c ****     I2C_1_SetTxInterruptMode(I2C_1_NO_INTR_SOURCES);
  260:.\Generated_Source\PSoC4/I2C_1.c **** 
  261:.\Generated_Source\PSoC4/I2C_1.c **** #if (I2C_1_SCB_IRQ_INTERNAL)
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 6
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccPDbpth.s 			page 6
 
 
  262:.\Generated_Source\PSoC4/I2C_1.c ****     I2C_1_ClearPendingInt();
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
  316:.\Generated_Source\PSoC4/I2C_1.c **** 
  317:.\Generated_Source\PSoC4/I2C_1.c **** #if (I2C_1_SCB_IRQ_INTERNAL)
  318:.\Generated_Source\PSoC4/I2C_1.c ****     /*******************************************************************************
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 7
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccPDbpth.s 			page 7
 
 
  319:.\Generated_Source\PSoC4/I2C_1.c ****     * Function Name: I2C_1_SetCustomInterruptHandler
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
  367:.\Generated_Source\PSoC4/I2C_1.c ****         I2C_1_EnableInt();
   31              		.loc 1 367 0
   32 0002 0B20     		mov	r0, #11
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 8
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccPDbpth.s 			page 8
 
 
   33 0004 FFF7FEFF 		bl	CyIntEnable
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
  407:.\Generated_Source\PSoC4/I2C_1.c **** #endif /* (I2C_1_SCB_MODE_UNCONFIG_CONST_CFG) */
  408:.\Generated_Source\PSoC4/I2C_1.c **** }
  409:.\Generated_Source\PSoC4/I2C_1.c **** 
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 9
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccPDbpth.s 			page 9
 
 
  410:.\Generated_Source\PSoC4/I2C_1.c **** 
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
  455:.\Generated_Source\PSoC4/I2C_1.c **** #else
  456:.\Generated_Source\PSoC4/I2C_1.c ****     /* Unknown mode: do nothing */
  457:.\Generated_Source\PSoC4/I2C_1.c **** #endif /* (I2C_1_SCB_MODE_UNCONFIG_CONST_CFG) */
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 10
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccPDbpth.s 			page 10
 
 
  458:.\Generated_Source\PSoC4/I2C_1.c **** }
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
  105 000a 0B43     		orr	r3, r1
  106 000c 1360     		str	r3, [r2]
  187:.\Generated_Source\PSoC4/I2C_1.c **** 
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 11
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccPDbpth.s 			page 11
 
 
  107              		.loc 1 187 0
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
  154 001a C046     		.align	2
  155              	.L9:
  156 001c 00000000 		.word	.LANCHOR0
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 12
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccPDbpth.s 			page 12
 
 
  157              		.cfi_endproc
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
  204              	.LFE3:
  205              		.size	I2C_1_Stop, .-I2C_1_Stop
  206              		.section	.text.I2C_1_SetRxFifoLevel,"ax",%progbits
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 13
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccPDbpth.s 			page 13
 
 
  207              		.align	2
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
  253              		.loc 1 308 0
  254 0000 034A     		ldr	r2, .L18
  255 0002 1368     		ldr	r3, [r2]
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 14
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccPDbpth.s 			page 14
 
 
  256              	.LVL15:
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
  303              		.align	2
  304              		.global	I2C_1_I2CSlaveNackGeneration
  305              		.code	16
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 15
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccPDbpth.s 			page 15
 
 
  306              		.thumb_func
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
  509:.\Generated_Source\PSoC4/I2C_1.c ****         }
  510:.\Generated_Source\PSoC4/I2C_1.c **** 
  511:.\Generated_Source\PSoC4/I2C_1.c ****         if ((I2C_1_SCB_MODE_I2C   == mode) ||
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 16
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccPDbpth.s 			page 16
 
 
  512:.\Generated_Source\PSoC4/I2C_1.c ****             (I2C_1_SCB_MODE_EZI2C == mode))
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
  566:.\Generated_Source\PSoC4/I2C_1.c ****                 /* (Master) */
  567:.\Generated_Source\PSoC4/I2C_1.c ****                 pinsDm[I2C_1_RX_SCL_MOSI_PIN_INDEX] = I2C_1_PIN_DM_STRONG;
  568:.\Generated_Source\PSoC4/I2C_1.c ****                 pinsDm[I2C_1_TX_SDA_MISO_PIN_INDEX] = I2C_1_PIN_DM_DIG_HIZ;
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 17
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccPDbpth.s 			page 17
 
 
  569:.\Generated_Source\PSoC4/I2C_1.c ****                 pinsDm[I2C_1_SCLK_PIN_INDEX] = I2C_1_PIN_DM_STRONG;
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
  623:.\Generated_Source\PSoC4/I2C_1.c ****                     hsiomSel[I2C_1_RX_SCL_MOSI_PIN_INDEX] = I2C_1_RX_SCL_MOSI_HSIOM_SEL_UART;
  624:.\Generated_Source\PSoC4/I2C_1.c ****                     pinsDm  [I2C_1_RX_SCL_MOSI_PIN_INDEX] = I2C_1_PIN_DM_DIG_HIZ;
  625:.\Generated_Source\PSoC4/I2C_1.c ****                 #elif (I2C_1_RX_WAKE_SCL_MOSI_PIN)
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 18
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccPDbpth.s 			page 18
 
 
  626:.\Generated_Source\PSoC4/I2C_1.c ****                     hsiomSel[I2C_1_RX_WAKE_SCL_MOSI_PIN_INDEX] = I2C_1_RX_WAKE_SCL_MOSI_HSIOM_SEL_U
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
  680:.\Generated_Source\PSoC4/I2C_1.c **** 
  681:.\Generated_Source\PSoC4/I2C_1.c ****         I2C_1_uart_rx_i2c_scl_spi_mosi_SetDriveMode((uint8) pinsDm[I2C_1_RX_SCL_MOSI_PIN_INDEX]);
  682:.\Generated_Source\PSoC4/I2C_1.c **** 
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 19
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccPDbpth.s 			page 19
 
 
  683:.\Generated_Source\PSoC4/I2C_1.c ****         #if (!I2C_1_CY_SCBIP_V1)
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
  737:.\Generated_Source\PSoC4/I2C_1.c **** 
  738:.\Generated_Source\PSoC4/I2C_1.c ****     #if (I2C_1_SS0_PIN)
  739:.\Generated_Source\PSoC4/I2C_1.c ****         I2C_1_SET_HSIOM_SEL(I2C_1_SS0_HSIOM_REG,
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 20
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccPDbpth.s 			page 20
 
 
  740:.\Generated_Source\PSoC4/I2C_1.c ****                                        I2C_1_SS0_HSIOM_MASK,
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
  794:.\Generated_Source\PSoC4/I2C_1.c **** #if (I2C_1_CY_SCBIP_V0 || I2C_1_CY_SCBIP_V1)
  795:.\Generated_Source\PSoC4/I2C_1.c ****     /*******************************************************************************
  796:.\Generated_Source\PSoC4/I2C_1.c ****     * Function Name: I2C_1_I2CSlaveNackGeneration
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 21
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccPDbpth.s 			page 21
 
 
  797:.\Generated_Source\PSoC4/I2C_1.c ****     ****************************************************************************//**
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
  345              	.L25:
  346 002c 00000740 		.word	1074200576
  347 0030 60000740 		.word	1074200672
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 22
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccPDbpth.s 			page 22
 
 
  348 0034 FFFEFFFF 		.word	-257
@@ -1292,17 +1292,17 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
  376 0006 00000000 		.4byte	.Ldebug_abbrev0
  377 000a 04       		.byte	0x4
  378 000b 01       		.uleb128 0x1
- 379 000c AD010000 		.4byte	.LASF35
+ 379 000c EB010000 		.4byte	.LASF35
  380 0010 01       		.byte	0x1
  381 0011 1F000000 		.4byte	.LASF36
- 382 0015 AB020000 		.4byte	.LASF37
+ 382 0015 EC000000 		.4byte	.LASF37
  383 0019 00000000 		.4byte	.Ldebug_ranges0+0
  384 001d 00000000 		.4byte	0
  385 0021 00000000 		.4byte	.Ldebug_line0
  386 0025 02       		.uleb128 0x2
  387 0026 01       		.byte	0x1
  388 0027 06       		.byte	0x6
- 389 0028 9F020000 		.4byte	.LASF0
+ 389 0028 DD020000 		.4byte	.LASF0
  390 002c 02       		.uleb128 0x2
  391 002d 01       		.byte	0x1
  392 002e 08       		.byte	0x8
@@ -1310,7 +1310,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
  394 0033 02       		.uleb128 0x2
  395 0034 02       		.byte	0x2
  396 0035 05       		.byte	0x5
- 397 0036 69020000 		.4byte	.LASF2
+ 397 0036 A7020000 		.4byte	.LASF2
  398 003a 02       		.uleb128 0x2
  399 003b 02       		.byte	0x2
  400 003c 07       		.byte	0x7
@@ -1318,10 +1318,10 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
  402 0041 02       		.uleb128 0x2
  403 0042 04       		.byte	0x4
  404 0043 05       		.byte	0x5
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 23
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccPDbpth.s 			page 23
 
 
- 405 0044 96020000 		.4byte	.LASF4
+ 405 0044 D4020000 		.4byte	.LASF4
  406 0048 02       		.uleb128 0x2
  407 0049 04       		.byte	0x4
  408 004a 07       		.byte	0x7
@@ -1329,11 +1329,11 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
  410 004f 02       		.uleb128 0x2
  411 0050 08       		.byte	0x8
  412 0051 05       		.byte	0x5
- 413 0052 8D010000 		.4byte	.LASF6
+ 413 0052 CB010000 		.4byte	.LASF6
  414 0056 02       		.uleb128 0x2
  415 0057 08       		.byte	0x8
  416 0058 07       		.byte	0x7
- 417 0059 3E010000 		.4byte	.LASF7
+ 417 0059 7C010000 		.4byte	.LASF7
  418 005d 03       		.uleb128 0x3
  419 005e 04       		.byte	0x4
  420 005f 05       		.byte	0x5
@@ -1341,14 +1341,14 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
  422 0064 02       		.uleb128 0x2
  423 0065 04       		.byte	0x4
  424 0066 07       		.byte	0x7
- 425 0067 1D010000 		.4byte	.LASF8
+ 425 0067 5B010000 		.4byte	.LASF8
  426 006b 04       		.uleb128 0x4
  427 006c BF000000 		.4byte	.LASF9
  428 0070 02       		.byte	0x2
  429 0071 9801     		.2byte	0x198
  430 0073 2C000000 		.4byte	0x2c
  431 0077 04       		.uleb128 0x4
- 432 0078 16010000 		.4byte	.LASF10
+ 432 0078 54010000 		.4byte	.LASF10
  433 007c 02       		.byte	0x2
  434 007d 9A01     		.2byte	0x19a
  435 007f 48000000 		.4byte	0x48
@@ -1363,7 +1363,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
  444 0091 02       		.uleb128 0x2
  445 0092 01       		.byte	0x1
  446 0093 08       		.byte	0x8
- 447 0094 9B010000 		.4byte	.LASF13
+ 447 0094 D9010000 		.4byte	.LASF13
  448 0098 04       		.uleb128 0x4
  449 0099 0E000000 		.4byte	.LASF14
  450 009d 02       		.byte	0x2
@@ -1378,12 +1378,12 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
  459 00b0 02       		.uleb128 0x2
  460 00b1 04       		.byte	0x4
  461 00b2 07       		.byte	0x7
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 24
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccPDbpth.s 			page 24
 
 
- 462 00b3 84010000 		.4byte	.LASF15
+ 462 00b3 C2010000 		.4byte	.LASF15
  463 00b7 08       		.uleb128 0x8
- 464 00b8 2A010000 		.4byte	.LASF16
+ 464 00b8 68010000 		.4byte	.LASF16
  465 00bc 01       		.byte	0x1
  466 00bd 6401     		.2byte	0x164
  467 00bf 00000000 		.4byte	.LFB7
@@ -1428,7 +1428,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
  506 0117 83020000 		.4byte	0x283
  507 011b 00       		.byte	0
  508 011c 0C       		.uleb128 0xc
- 509 011d A0010000 		.4byte	.LASF19
+ 509 011d DE010000 		.4byte	.LASF19
  510 0121 01       		.byte	0x1
  511 0122 AB       		.byte	0xab
  512 0123 00000000 		.4byte	.LFB1
@@ -1438,13 +1438,13 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
  516 012d 3B010000 		.4byte	0x13b
  517 0131 0B       		.uleb128 0xb
  518 0132 12000000 		.4byte	.LVL3
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 25
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccPDbpth.s 			page 25
 
 
  519 0136 B7000000 		.4byte	0xb7
  520 013a 00       		.byte	0
  521 013b 0C       		.uleb128 0xc
- 522 013c 5D020000 		.4byte	.LASF20
+ 522 013c 9B020000 		.4byte	.LASF20
  523 0140 01       		.byte	0x1
  524 0141 D2       		.byte	0xd2
  525 0142 00000000 		.4byte	.LFB2
@@ -1460,7 +1460,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
  535 015e 1C010000 		.4byte	0x11c
  536 0162 00       		.byte	0
  537 0163 0C       		.uleb128 0xc
- 538 0164 FD000000 		.4byte	.LASF21
+ 538 0164 3B010000 		.4byte	.LASF21
  539 0168 01       		.byte	0x1
  540 0169 EF       		.byte	0xef
  541 016a 00000000 		.4byte	.LFB3
@@ -1492,13 +1492,13 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
  567 01a2 00       		.byte	0
  568 01a3 00       		.byte	0
  569 01a4 0E       		.uleb128 0xe
- 570 01a5 48020000 		.4byte	.LASF22
+ 570 01a5 86020000 		.4byte	.LASF22
  571 01a9 01       		.byte	0x1
  572 01aa 1701     		.2byte	0x117
  573 01ac 00000000 		.4byte	.LFB4
  574 01b0 14000000 		.4byte	.LFE4-.LFB4
  575 01b4 01       		.uleb128 0x1
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 26
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccPDbpth.s 			page 26
 
 
  576 01b5 9C       		.byte	0x9c
@@ -1510,7 +1510,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
  582 01c2 77000000 		.4byte	0x77
  583 01c6 00000000 		.4byte	.LLST0
  584 01ca 10       		.uleb128 0x10
- 585 01cb 8B020000 		.4byte	.LASF25
+ 585 01cb C9020000 		.4byte	.LASF25
  586 01cf 01       		.byte	0x1
  587 01d0 1901     		.2byte	0x119
  588 01d2 77000000 		.4byte	0x77
@@ -1548,7 +1548,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
  620 0223 9C       		.byte	0x9c
  621 0224 37020000 		.4byte	0x237
  622 0228 11       		.uleb128 0x11
- 623 0229 EC000000 		.4byte	.LASF28
+ 623 0229 2A010000 		.4byte	.LASF28
  624 022d 01       		.byte	0x1
  625 022e 4F01     		.2byte	0x14f
  626 0230 A9000000 		.4byte	0xa9
@@ -1556,9 +1556,9 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
  628 0235 50       		.byte	0x50
  629 0236 00       		.byte	0
  630 0237 12       		.uleb128 0x12
- 631 0238 55010000 		.4byte	.LASF38
+ 631 0238 93010000 		.4byte	.LASF38
  632 023c 01       		.byte	0x1
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 27
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccPDbpth.s 			page 27
 
 
  633 023d 2203     		.2byte	0x322
@@ -1567,7 +1567,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
  636 0247 01       		.uleb128 0x1
  637 0248 9C       		.byte	0x9c
  638 0249 13       		.uleb128 0x13
- 639 024a 08010000 		.4byte	.LASF29
+ 639 024a 46010000 		.4byte	.LASF29
  640 024e 01       		.byte	0x1
  641 024f 51       		.byte	0x51
  642 0250 6B000000 		.4byte	0x6b
@@ -1575,7 +1575,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
  644 0255 03       		.byte	0x3
  645 0256 00000000 		.4byte	I2C_1_initVar
  646 025a 13       		.uleb128 0x13
- 647 025b 73020000 		.4byte	.LASF30
+ 647 025b B1020000 		.4byte	.LASF30
  648 025f 01       		.byte	0x1
  649 0260 61       		.byte	0x61
  650 0261 A9000000 		.4byte	0xa9
@@ -1583,7 +1583,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
  652 0266 03       		.byte	0x3
  653 0267 00000000 		.4byte	I2C_1_customIntrHandler
  654 026b 14       		.uleb128 0x14
- 655 026c F1000000 		.4byte	.LASF33
+ 655 026c 2F010000 		.4byte	.LASF33
  656 0270 04       		.byte	0x4
  657 0271 C1       		.byte	0xc1
  658 0272 7C020000 		.4byte	0x27c
@@ -1599,7 +1599,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
  668 0288 03       		.byte	0x3
  669 0289 49       		.byte	0x49
  670 028a 14       		.uleb128 0x14
- 671 028b 3B020000 		.4byte	.LASF34
+ 671 028b 79020000 		.4byte	.LASF34
  672 028f 04       		.byte	0x4
  673 0290 C3       		.byte	0xc3
  674 0291 9B020000 		.4byte	0x29b
@@ -1607,7 +1607,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
  676 0296 6B000000 		.4byte	0x6b
  677 029a 00       		.byte	0
  678 029b 17       		.uleb128 0x17
- 679 029c 72010000 		.4byte	.LASF39
+ 679 029c B0010000 		.4byte	.LASF39
  680 02a0 04       		.byte	0x4
  681 02a1 C6       		.byte	0xc6
  682 02a2 15       		.uleb128 0x15
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
  687              	.Ldebug_abbrev0:
  688 0000 01       		.uleb128 0x1
  689 0001 11       		.uleb128 0x11
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 28
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccPDbpth.s 			page 28
 
 
  690 0002 01       		.byte	0x1
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
  744 0038 00       		.byte	0
  745 0039 49       		.uleb128 0x49
  746 003a 13       		.uleb128 0x13
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 29
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccPDbpth.s 			page 29
 
 
  747 003b 00       		.byte	0
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
  801 0076 18       		.uleb128 0x18
  802 0077 9142     		.uleb128 0x2111
  803 0079 18       		.uleb128 0x18
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 30
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccPDbpth.s 			page 30
 
 
  804 007a 00       		.byte	0
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
  858 00b5 3A       		.uleb128 0x3a
  859 00b6 0B       		.uleb128 0xb
  860 00b7 3B       		.uleb128 0x3b
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 31
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccPDbpth.s 			page 31
 
 
  861 00b8 05       		.uleb128 0x5
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
  915 00ef 49       		.uleb128 0x49
  916 00f0 13       		.uleb128 0x13
  917 00f1 02       		.uleb128 0x2
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 32
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccPDbpth.s 			page 32
 
 
  918 00f2 18       		.uleb128 0x18
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
  972 0129 27       		.uleb128 0x27
  973 012a 19       		.uleb128 0x19
  974 012b 3C       		.uleb128 0x3c
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 33
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccPDbpth.s 			page 33
 
 
  975 012c 19       		.uleb128 0x19
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
  1029 000b 0A000000 		.4byte	.LVL12
  1030 000f 14000000 		.4byte	.LFE4
  1031 0013 0400     		.2byte	0x4
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 34
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccPDbpth.s 			page 34
 
 
  1032 0015 F3       		.byte	0xf3
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
  1086 0020 00000000 		.4byte	.LFB0
  1087 0024 08000000 		.4byte	.LFE0-.LFB0
  1088 0028 00000000 		.4byte	.LFB1
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 35
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccPDbpth.s 			page 35
 
 
  1089 002c 18000000 		.4byte	.LFE1-.LFB1
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
  1135              	.LASF26:
  1136 0014 74784669 		.ascii	"txFifoCtrl\000"
  1136      666F4374 
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 36
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccPDbpth.s 			page 36
 
 
  1136      726C00
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
  1159              	.LASF27:
  1160 00c5 4932435F 		.ascii	"I2C_1_SetCustomInterruptHandler\000"
  1160      315F5365 
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 37
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccPDbpth.s 			page 37
 
 
  1160      74437573 
@@ -2167,139 +2167,138 @@ ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 1
  1161              	.LASF12:
  1162 00e5 646F7562 		.ascii	"double\000"
  1162      6C6500
- 1163              	.LASF28:
- 1164 00ec 66756E63 		.ascii	"func\000"
- 1164      00
- 1165              	.LASF33:
- 1166 00f1 4379496E 		.ascii	"CyIntEnable\000"
- 1166      74456E61 
- 1166      626C6500 
- 1167              	.LASF21:
- 1168 00fd 4932435F 		.ascii	"I2C_1_Stop\000"
- 1168      315F5374 
- 1168      6F7000
- 1169              	.LASF29:
- 1170 0108 4932435F 		.ascii	"I2C_1_initVar\000"
- 1170      315F696E 
- 1170      69745661 
- 1170      7200
- 1171              	.LASF10:
- 1172 0116 75696E74 		.ascii	"uint32\000"
- 1172      333200
- 1173              	.LASF8:
- 1174 011d 756E7369 		.ascii	"unsigned int\000"
- 1174      676E6564 
- 1174      20696E74 
- 1174      00
- 1175              	.LASF16:
- 1176 012a 4932435F 		.ascii	"I2C_1_ScbEnableIntr\000"
- 1176      315F5363 
- 1176      62456E61 
- 1176      626C6549 
- 1176      6E747200 
- 1177              	.LASF7:
- 1178 013e 6C6F6E67 		.ascii	"long long unsigned int\000"
- 1178      206C6F6E 
- 1178      6720756E 
- 1178      7369676E 
- 1178      65642069 
- 1179              	.LASF38:
- 1180 0155 4932435F 		.ascii	"I2C_1_I2CSlaveNackGeneration\000"
- 1180      315F4932 
- 1180      43536C61 
- 1180      76654E61 
- 1180      636B4765 
- 1181              	.LASF39:
- 1182 0172 4379496E 		.ascii	"CyIntClearPending\000"
- 1182      74436C65 
- 1182      61725065 
- 1182      6E64696E 
- 1182      6700
- 1183              	.LASF15:
- 1184 0184 73697A65 		.ascii	"sizetype\000"
- 1184      74797065 
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 38
+ 1163              	.LASF37:
+ 1164 00ec 433A5C55 		.ascii	"C:\\Users\\capslock\\Documents\\accelerometer\\PSoC"
+ 1164      73657273 
+ 1164      5C636170 
+ 1164      736C6F63 
+ 1164      6B5C446F 
+ 1165 011a 5C446573 		.ascii	"\\Design01.cydsn\000"
+ 1165      69676E30 
+ 1165      312E6379 
+ 1165      64736E00 
+ 1166              	.LASF28:
+ 1167 012a 66756E63 		.ascii	"func\000"
+ 1167      00
+ 1168              	.LASF33:
+ 1169 012f 4379496E 		.ascii	"CyIntEnable\000"
+ 1169      74456E61 
+ 1169      626C6500 
+ 1170              	.LASF21:
+ 1171 013b 4932435F 		.ascii	"I2C_1_Stop\000"
+ 1171      315F5374 
+ 1171      6F7000
+ 1172              	.LASF29:
+ 1173 0146 4932435F 		.ascii	"I2C_1_initVar\000"
+ 1173      315F696E 
+ 1173      69745661 
+ 1173      7200
+ 1174              	.LASF10:
+ 1175 0154 75696E74 		.ascii	"uint32\000"
+ 1175      333200
+ 1176              	.LASF8:
+ 1177 015b 756E7369 		.ascii	"unsigned int\000"
+ 1177      676E6564 
+ 1177      20696E74 
+ 1177      00
+ 1178              	.LASF16:
+ 1179 0168 4932435F 		.ascii	"I2C_1_ScbEnableIntr\000"
+ 1179      315F5363 
+ 1179      62456E61 
+ 1179      626C6549 
+ 1179      6E747200 
+ 1180              	.LASF7:
+ 1181 017c 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1181      206C6F6E 
+ 1181      6720756E 
+ 1181      7369676E 
+ 1181      65642069 
+ 1182              	.LASF38:
+ 1183 0193 4932435F 		.ascii	"I2C_1_I2CSlaveNackGeneration\000"
+ 1183      315F4932 
+ 1183      43536C61 
+ 1183      76654E61 
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccPDbpth.s 			page 38
 
 
- 1184      00
- 1185              	.LASF6:
- 1186 018d 6C6F6E67 		.ascii	"long long int\000"
- 1186      206C6F6E 
- 1186      6720696E 
- 1186      7400
- 1187              	.LASF13:
- 1188 019b 63686172 		.ascii	"char\000"
- 1188      00
- 1189              	.LASF19:
- 1190 01a0 4932435F 		.ascii	"I2C_1_Enable\000"
- 1190      315F456E 
- 1190      61626C65 
- 1190      00
- 1191              	.LASF35:
- 1192 01ad 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
- 1192      4320342E 
- 1192      392E3320 
- 1192      32303135 
- 1192      30333033 
- 1193 01e0 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
- 1193      20726576 
- 1193      6973696F 
- 1193      6E203232 
- 1193      31323230 
- 1194 0213 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
- 1194      66756E63 
- 1194      74696F6E 
- 1194      2D736563 
- 1194      74696F6E 
- 1195              	.LASF34:
- 1196 023b 4379496E 		.ascii	"CyIntDisable\000"
- 1196      74446973 
- 1196      61626C65 
- 1196      00
- 1197              	.LASF22:
- 1198 0248 4932435F 		.ascii	"I2C_1_SetRxFifoLevel\000"
- 1198      315F5365 
- 1198      74527846 
- 1198      69666F4C 
- 1198      6576656C 
- 1199              	.LASF20:
- 1200 025d 4932435F 		.ascii	"I2C_1_Start\000"
- 1200      315F5374 
- 1200      61727400 
- 1201              	.LASF2:
- 1202 0269 73686F72 		.ascii	"short int\000"
- 1202      7420696E 
- 1202      7400
- 1203              	.LASF30:
- 1204 0273 4932435F 		.ascii	"I2C_1_customIntrHandler\000"
- 1204      315F6375 
- 1204      73746F6D 
- 1204      496E7472 
- 1204      48616E64 
- 1205              	.LASF25:
- 1206 028b 72784669 		.ascii	"rxFifoCtrl\000"
-ARM GAS  C:\Users\EmilR\AppData\Local\Temp\ccm6Al7f.s 			page 39
+ 1183      636B4765 
+ 1184              	.LASF39:
+ 1185 01b0 4379496E 		.ascii	"CyIntClearPending\000"
+ 1185      74436C65 
+ 1185      61725065 
+ 1185      6E64696E 
+ 1185      6700
+ 1186              	.LASF15:
+ 1187 01c2 73697A65 		.ascii	"sizetype\000"
+ 1187      74797065 
+ 1187      00
+ 1188              	.LASF6:
+ 1189 01cb 6C6F6E67 		.ascii	"long long int\000"
+ 1189      206C6F6E 
+ 1189      6720696E 
+ 1189      7400
+ 1190              	.LASF13:
+ 1191 01d9 63686172 		.ascii	"char\000"
+ 1191      00
+ 1192              	.LASF19:
+ 1193 01de 4932435F 		.ascii	"I2C_1_Enable\000"
+ 1193      315F456E 
+ 1193      61626C65 
+ 1193      00
+ 1194              	.LASF35:
+ 1195 01eb 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
+ 1195      4320342E 
+ 1195      392E3320 
+ 1195      32303135 
+ 1195      30333033 
+ 1196 021e 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
+ 1196      20726576 
+ 1196      6973696F 
+ 1196      6E203232 
+ 1196      31323230 
+ 1197 0251 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 1197      66756E63 
+ 1197      74696F6E 
+ 1197      2D736563 
+ 1197      74696F6E 
+ 1198              	.LASF34:
+ 1199 0279 4379496E 		.ascii	"CyIntDisable\000"
+ 1199      74446973 
+ 1199      61626C65 
+ 1199      00
+ 1200              	.LASF22:
+ 1201 0286 4932435F 		.ascii	"I2C_1_SetRxFifoLevel\000"
+ 1201      315F5365 
+ 1201      74527846 
+ 1201      69666F4C 
+ 1201      6576656C 
+ 1202              	.LASF20:
+ 1203 029b 4932435F 		.ascii	"I2C_1_Start\000"
+ 1203      315F5374 
+ 1203      61727400 
+ 1204              	.LASF2:
+ 1205 02a7 73686F72 		.ascii	"short int\000"
+ARM GAS  C:\Users\capslock\AppData\Local\Temp\ccPDbpth.s 			page 39
 
 
- 1206      666F4374 
- 1206      726C00
- 1207              	.LASF4:
- 1208 0296 6C6F6E67 		.ascii	"long int\000"
- 1208      20696E74 
- 1208      00
- 1209              	.LASF0:
- 1210 029f 7369676E 		.ascii	"signed char\000"
- 1210      65642063 
- 1210      68617200 
- 1211              	.LASF37:
- 1212 02ab 433A5C55 		.ascii	"C:\\Users\\EmilR\\OneDrive\\Skole\\4. Semester\\PRJ"
- 1212      73657273 
- 1212      5C456D69 
- 1212      6C525C4F 
- 1212      6E654472 
- 1213 02d8 345C6163 		.ascii	"4\\acc_v1_surface\\Design01.cydsn\000"
- 1213      635F7631 
- 1213      5F737572 
- 1213      66616365 
- 1213      5C446573 
+ 1205      7420696E 
+ 1205      7400
+ 1206              	.LASF30:
+ 1207 02b1 4932435F 		.ascii	"I2C_1_customIntrHandler\000"
+ 1207      315F6375 
+ 1207      73746F6D 
+ 1207      496E7472 
+ 1207      48616E64 
+ 1208              	.LASF25:
+ 1209 02c9 72784669 		.ascii	"rxFifoCtrl\000"
+ 1209      666F4374 
+ 1209      726C00
+ 1210              	.LASF4:
+ 1211 02d4 6C6F6E67 		.ascii	"long int\000"
+ 1211      20696E74 
+ 1211      00
+ 1212              	.LASF0:
+ 1213 02dd 7369676E 		.ascii	"signed char\000"
+ 1213      65642063 
+ 1213      68617200 
  1214              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150303 (release) [ARM/embedded-4_9-br
