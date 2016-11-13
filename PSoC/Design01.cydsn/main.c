@@ -45,7 +45,7 @@ int main()
     int8_t acc_z_H;
     int8_t acc_z_L;
     
-    int16_t acc_x_total[2];
+    int16_t acc_x_total;
     int16_t temp_acc_x[AVGFILTER_M];
     int16_t acc_y_total;
     int16_t acc_z_total;
@@ -86,22 +86,22 @@ int main()
 //        PC_PSoC_UART_UartPutString(value);
         
         /*PSoC code*/
-        acc_x_H[0] = ReadI2CData(ACCEL_XOUT_H);
-        acc_x_L[0] = ReadI2CData(ACCEL_XOUT_L);
-        /*Venter til at sample igen fra acc.
-        Samplings hastighed fra ACC = 1kHz derfor ventes
-        Der 2us*/
-        CyDelay(2);
-        acc_x_H[1] = ReadI2CData(ACCEL_XOUT_H);
-        acc_x_L[1] = ReadI2CData(ACCEL_XOUT_L);
-        for (int i = 0; i < 2; i++) {
-         temp_acc_x[i] = (acc_x_H[i] << 8) + acc_x_L[i]; 
-         
-        }
+            int i = 0;
+            //Midler med AVGFILTER_M tidligere samples
+            while(i < AVGFILTER_M) {
+                acc_x_H[1] = ReadI2CData(ACCEL_XOUT_H);
+                acc_x_L[1] = ReadI2CData(ACCEL_XOUT_L);
+                temp_acc_x[i] = (acc_x_H[1] << 8) + acc_x_L[1];
+                acc_x_total += temp_acc_x[i];
+                i++;
+                }
+            acc_x_total = acc_x_total / AVGFILTER_M; // Dividere med 32
+            CyDelay(80);
+
         
-        /*Midlings filter*/
-        
-    }
+        sprintf(value,"%d_",acc_x_total-error[0]);
+        PC_PSoC_UART_UartPutString(value);
+            }
 }
 
 

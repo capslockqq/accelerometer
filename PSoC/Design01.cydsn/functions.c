@@ -20,7 +20,7 @@ void sys_init () {
 
 
 void mpu_init(struct MPU_9150_config *configObj) {
-    configObj->accConfigData = 0b00000100;
+    configObj->accConfigData = 0b00001100;
     configObj->sampleRateDividerData = 0x08;
     configObj->fifoData = 0b00001000;
     configObj->powerManagement = 0b00000001;
@@ -125,7 +125,7 @@ void calibrateMPU9150(int32_t *correctionError) {
     //Omsætning af acc
     WriteI2CData(CONFIG, 0x01); //Sætter båndbredde til 184 for acc og 188 for gyro
     WriteI2CData(SAMPLE_RATE_DIVIDER, 0x00); //Sætter samplerate til 1kHz
-    WriteI2CData(ACC_CONFIG, 0b00000100); //Sætter acc til 2g, dette er maksimum følsomhed
+    WriteI2CData(ACC_CONFIG, 0b00001100); //Sætter acc til 2g, dette er maksimum følsomhed
 
     //Opsætning af FIFO
     WriteI2CData(USER_CTRL, 0x40); //Sætter bit 7 til høj; FIFO er enabled

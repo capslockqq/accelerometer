@@ -242,45 +242,6 @@
 <VisibleNodeIds>
 <v>acc_v1_surface</v>
 <v>acc_v1_surface\Design01</v>
-<v>acc_v1_surface\Design01\CortexM0</v>
-<v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493</v>
-<v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug</v>
-<v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug\Listing Files</v>
-<v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug\Listing Files\Cm0Start.lst</v>
-<v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
-<v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
-<v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
-<v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug\Listing Files\CyLFClk.lst</v>
-<v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
-<v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
-<v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
-<v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
-<v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug\Listing Files\functions.lst</v>
-<v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_1.lst</v>
-<v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_1_BOOT.lst</v>
-<v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_1_I2C.lst</v>
-<v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_1_I2C_BOOT.lst</v>
-<v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_1_I2C_INT.lst</v>
-<v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_1_I2C_MASTER.lst</v>
-<v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_1_PM.lst</v>
-<v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_1_SCB_IRQ.lst</v>
-<v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_1_SCBCLK.lst</v>
-<v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_1_scl.lst</v>
-<v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_1_scl_PM.lst</v>
-<v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_1_sda.lst</v>
-<v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_1_sda_PM.lst</v>
-<v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug\Listing Files\main.lst</v>
-<v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug\Listing Files\PC_PSoC_UART.lst</v>
-<v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug\Listing Files\PC_PSoC_UART_BOOT.lst</v>
-<v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug\Listing Files\PC_PSoC_UART_PM.lst</v>
-<v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug\Listing Files\PC_PSoC_UART_rx.lst</v>
-<v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug\Listing Files\PC_PSoC_UART_rx_PM.lst</v>
-<v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug\Listing Files\PC_PSoC_UART_SCBCLK.lst</v>
-<v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug\Listing Files\PC_PSoC_UART_SPI_UART.lst</v>
-<v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug\Listing Files\PC_PSoC_UART_SPI_UART_INT.lst</v>
-<v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug\Listing Files\PC_PSoC_UART_tx.lst</v>
-<v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug\Listing Files\PC_PSoC_UART_tx_PM.lst</v>
-<v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug\Listing Files\PC_PSoC_UART_UART.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
