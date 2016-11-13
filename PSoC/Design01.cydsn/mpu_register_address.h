@@ -4,7 +4,7 @@
 #ifndef _MPU_REGISTER_ADDRESS_H_
 #define _MPU_REGISTER_ADDRESS_H_
 
-#define AVGFILTER_M 10    
+#define AVGFILTER_M 15    
     
 #define I2C_SLAVE_ADDR  		0x69
 #define WHO_AM_I 				0x75
@@ -30,7 +30,11 @@
 #define ACCEL_YOUT_H 			0x3D
 #define ACCEL_YOUT_L 			0x3E
 #define ACCEL_ZOUT_H 			0x3F
-#define ACCEL_ZOUT_L 			0x40
+#define ACCEL_ZOUT_L 			0x40  
+#define GYRO_XOUT_H             0x43
+#define GYRO_XOUT_L             0x44
+#define GYRO_YOUT_H             0x45
+#define GYRO_YOUT_L             0x46
 #define USER_CTRL 				0x6A
 #define PWR_MGMT_1 				0x6B //Device is default sleep mode
 #define FIFO_COUNTH 			0x72

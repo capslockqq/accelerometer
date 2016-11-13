@@ -5,7 +5,7 @@
 
 
 void sys_init();  
-void mpu_init(struct MPU_9150_config *);
+void mpu_init(struct MPU_9150_Acc_config *);
 
 uint32_t WriteI2CData(uint8_t, uint8_t);
 int32_t ReadI2CData(uint8_t);

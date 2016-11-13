@@ -59,7 +59,7 @@ int main()
         
         //struct MPU_9150_config accConfig, laver pinter til struct. Allokerer plads i memory til structen
            
-        struct MPU_9150_config *accConfigObj = malloc(sizeof(struct MPU_9150_config));
+        struct MPU_9150_Acc_config *accConfigObj = malloc(sizeof(struct MPU_9150_Acc_config));
 
         mpu_init(accConfigObj);
         WriteI2CData(PWR_MGMT_1, accConfigObj->powerManagement);
@@ -69,6 +69,7 @@ int main()
         CyDelay(20);
         int16_t data[1];
         calibrateMPU9150(error);   
+        
         
     }
     
