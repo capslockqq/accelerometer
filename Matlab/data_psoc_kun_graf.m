@@ -25,7 +25,7 @@ disp(['Port Setup Done!!',num2str(prop)]);
 disp('Running');
 fopen(s);
 
-tolerance = 100;
+tolerance = 300;
 c = 0;
 b = 0;
 countx = 0;    
@@ -45,9 +45,6 @@ startSpot = 0;
 interv = 10000 ; % considering 1000 samples
 step = 0.1 ; % lowering step has a number of cycles and then acquire more data
 
-M = 3;
-midlings_filter = ones(1, M);
-output = zeros(1,1);
 velocity = zeros(1, interv);
 position = zeros(1, interv);
 integral = zeros(1,interv);
@@ -82,67 +79,13 @@ for i = 1: N
    k = 10 * k + b(i+signed_true);
 end
 k = k*signed;
-      if (t <= M) 
-          midlings_filter(t) = k   
-      elseif (t+1 == M)
-          for q = 1:M
-              output = output + midlings_filter(M);
-          end
-              
-      elseif (t+1 > M)
-          for q = 2:M+1
-              if (q == M+1) 
-                  midlings_filter(M) = k;
-                  output = output + midlings_filter(M);
-                  
-              else
-                  midlings_filter(q-1) = midlings_filter(q);
-                  output = output + midlings_filter(q-1);
-              end
-              
-          end    
-      end
-     
-      
+
       x = [ x, k ];
-      output = output/M;
-      
-      if output < tolerance && output > -tolerance
-         output = 0; 
-      end
-      y = [y, output];
-      
-      subplot(3,1,1);
-      
-      plot(y) ;
+          
+      plot(x) ;
       title('Acceleration');
       drawnow;
-      
      
-      if t > 1
-         velocity(t) = velocity(t-1) + y(t)+((y(t)-y(t-1))/2);
-         position(t) = position(t-1) + +velocity(t)+((velocity(t)-velocity(t-1))/2);
-         if y(t) == 0
-            countx = countx+1;
-         else
-            countx = 0;
-         end
-         if countx >= 2
-            velocity(t) = 0;
-            velocity(t-1) = 0;
-         end
-         v = [v, velocity(t)];
-         subplot(3,1,2);    
-         plot(v);
-         title('Velocity');
-         p = [p, position(t)];
-         subplot(3,1,3);
-         plot(p);
-         title('Position');
-         
-     
-      end
-      
       t = t + 1;
   
 end

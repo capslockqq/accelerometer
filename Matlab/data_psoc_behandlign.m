@@ -25,7 +25,7 @@ disp(['Port Setup Done!!',num2str(prop)]);
 disp('Running');
 fopen(s);
 
-tolerance = 200;
+tolerance = 300;
 c = 0;
 b = 0;
 countx = 0;    
@@ -92,7 +92,7 @@ k = k*signed;
       drawnow;
   
       if t > 1
-         velocity(t) = velocity(t-1) + x(t)+((x(t)+x(t-1))/2);
+         velocity(t) = velocity(t-1) + x(t)+((x(t)-x(t-1))/2);
          position(t) = position(t-1) + +velocity(t)+((velocity(t)-velocity(t-1))/2);
          if x(t) == 0
             countx = countx+1;

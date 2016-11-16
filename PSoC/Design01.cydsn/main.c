@@ -1,15 +1,3 @@
-/* ========================================
- *
- * Copyright YOUR COMPANY, THE YEAR
- * All Rights Reserved
- * UNPUBLISHED, LICENSED SOFTWARE.
- *
- * CONFIDENTIAL AND PROPRIETARY INFORMATION
- * WHICH IS THE PROPERTY OF your company.
- *
- * ========================================
-*/
-
 #include <project.h>
 #include <stdio.h>
 #include <functions.h>
@@ -17,64 +5,34 @@
 #include <structs.h>
 #include <stdlib.h>
 
-#define BUFFER_SIZE     (2u)
-#define PACKET_SIZE     (BUFFER_SIZE)
-#define TRANSFER_ERROR    (0xFFu)
+
 
 int main()
 {
     
     CyGlobalIntEnable;      /* Enable global interrupts */
+    
     sys_init();
-   
-    char *p1;
-    char *p2;
-    char *p3;
-    char *p4;
-    char *p5;
-    char *p6;
-    
     char value[20];
-    char nylinje[] = "\n\r";
+ 
+    //Tjekker om slaven eksistere og kan skrive sin adresse tilbag
     
-    uint8_t Data = 0x3b;
-    int8_t acc_x_H[2];
-    int8_t acc_x_L[2];
-    int8_t acc_y_H;
-    int8_t acc_y_L;
-    int8_t acc_z_H;
-    int8_t acc_z_L;
-    
-    int16_t acc_x_total;
-    int16_t temp_acc_x[AVGFILTER_M];
-    int16_t acc_y_total;
-    int16_t acc_z_total;
-    
-    int32_t error[3];
-    p1 = "I2C connection established \n\r";
-    p2 = value;
-    p3 = nylinje;
-    //Tjekker om slaven eksistere og kan skrive sin adresse tilbage
     if (ReadI2CData(WHO_AM_I) != -1) {
         
         //struct MPU_9150_config accConfig, laver pinter til struct. Allokerer plads i memory til structen
-           
-        struct MPU_9150_Acc_config *accConfigObj = malloc(sizeof(struct MPU_9150_Acc_config));
-
-        mpu_init(accConfigObj);
-        WriteI2CData(PWR_MGMT_1, accConfigObj->powerManagement);
-        //Sætter sample rate divideren på gyroscopet
-        WriteI2CData(SAMPLE_RATE_DIVIDER, accConfigObj->sampleRateDividerData); 
-        WriteI2CData(ACC_CONFIG, accConfigObj->accConfigData);
-        CyDelay(20);
-        int16_t data[1];
-        calibrateMPU9150(error);   
-        
+            
         
     }
+    int8_t temp_acc_H[2];
+    int8_t temp_acc_L[2];
+    int16_t acc_total[2] = {0};
+    int16_t  velocity_x[2] = {0};
+    int16_t position_x[2] = {0};
+    MPU_9150_Acc_config_s accConfigObj;
+    movement_XY_s movementData;
+    struct_init(&accConfigObj, &movementData);
+    uint8 countx = 0;
     
-    
-    int enteredForLoop = 0;
     for(;;) // endless loop
     {
         /*MatLab UART*/
@@ -87,22 +45,90 @@ int main()
 //        PC_PSoC_UART_UartPutString(value);
         
         /*PSoC code*/
-            int i = 0;
-            //Midler med AVGFILTER_M tidligere samples
-            while(i < AVGFILTER_M) {
-                acc_x_H[1] = ReadI2CData(ACCEL_XOUT_H);
-                acc_x_L[1] = ReadI2CData(ACCEL_XOUT_L);
-                temp_acc_x[i] = (acc_x_H[1] << 8) + acc_x_L[1];
-                acc_x_total += temp_acc_x[i];
-                i++;
-                }
-            acc_x_total = acc_x_total / AVGFILTER_M; // Dividere med 32
-            CyDelay(80);
 
+//        else {
+//            countx = 0;
+//            //Beregner hastighed ud fra acceleration
+//            //Tager integrale af acc
+//            velocity_x[1] = velocity_x[0]+acc_x_total[1]+((acc_x_total[1]+acc_x_total[0])/2);
+//            
+//            //Beregner position ud fra hastighed
+//            //Integral af hastighed
+//            position_x[1] = position_x[0]+velocity_x[1]+((velocity_x[1]+velocity_x[0])/2);
+//            
+//
+//            
+//        }
+//        if (acc_x_total[0] < tolerance && acc_x_total[0] > -tolerance && acc_x_total[1] < tolerance && acc_x_total[1] > -tolerance) {
+//            acc_x_total[0] = 0;
+//            acc_x_total[1] = 0;
+//            //Tæller count 1 op for hver gang et nul er blevet detekteret.
+//            countx++;
+//            
+//            //Hvis data = 0 er registreret 10 gange, vil hastigheden opfattes som nul
+//            if (countx >= 10) {
+//                velocity_x[1] = 0;
+//                velocity_x[0] = 0;
+//                
+//            }
+//        }
+//        
+//        // Hvis 
+//        else {
+//            countx = 0;
+//            //Beregner hastighed ud fra acceleration
+//            //Tager integrale af acc
+//            velocity_x[1] = velocity_x[0]+acc_x_total[1]+((acc_x_total[1]+acc_x_total[0])/2);
+//            
+//            //Beregner position ud fra hastighed
+//            //Integral af hastighed
+//            position_x[1] = position_x[0]+velocity_x[1]+((velocity_x[1]+velocity_x[0])/2);
+//            
+//
+//            
+//        }
+        temp_acc_H[1] = ReadI2CData(ACCEL_XOUT_H);
+        temp_acc_L[1] = ReadI2CData(ACCEL_XOUT_L);
+        acc_total[1] = ((temp_acc_H[1] << 8) + temp_acc_L[1]);
+        //Trækker x-accel fejl fra værdien
+        acc_total[1] -= movementData.AccErrorX;
         
-        sprintf(value,"%d_",acc_x_total-error[0]);
-        PC_PSoC_UART_UartPutString(value);
+       
+        if (acc_total[1] < TOLERANCE && acc_total[1] > -TOLERANCE) {
+            acc_total[1] = 0;
+            acc_total[0] = 0;
+        }
+        
+        velocity_x[1] = (velocity_x[0]/20)+acc_total[1]+((acc_total[1]+acc_total[0])/2);
+        
+        
+        if (acc_total[1] == 0) {
+            countx++;   
+            if (countx > 10) {
+             velocity_x[1] = 0;   
+            velocity_x[0] = 0;
             }
+        }
+        else {
+            countx = 0;
+        }
+       
+        
+        position_x[1] = position_x[0]+velocity_x[1]+((velocity_x[1]+velocity_x[0])/2);
+        
+//        setAcceleration(&movementData); 
+//        setVelocity(&movementData);
+//        setPosition(&movementData);
+        sprintf(value,"%d_", position_x[1]);
+        PC_PSoC_UART_UartPutString(value);
+        velocity_x[0] = velocity_x[1];
+        position_x[0] = position_x[1];
+        acc_total[0] = acc_total[1];
+        CyDelay(50);
+        
+        
+        
+    }
 }
 
 
