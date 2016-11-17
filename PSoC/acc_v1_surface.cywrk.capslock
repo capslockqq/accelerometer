@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="acc_v1_surface\Design01\Header Files\functions.h">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="acc_v1_surface\Design01\Source Files\accelerometer.c">
 <ExpandedNodeIds>
 <v>acc_v1_surface</v>
 <v>acc_v1_surface\Design01</v>
@@ -142,6 +142,7 @@
 <v>acc_v1_surface\Design01\Header Files\mpu_register_address.h</v>
 <v>acc_v1_surface\Design01\Header Files\structs.h</v>
 <v>acc_v1_surface\Design01\Source Files</v>
+<v>acc_v1_surface\Design01\Source Files\accelerometer.c</v>
 <v>acc_v1_surface\Design01\Source Files\functions.c</v>
 <v>acc_v1_surface\Design01\Source Files\main.c</v>
 <v>acc_v1_surface\Design01\Generated_Source</v>
@@ -177,7 +178,6 @@
 <v>acc_v1_surface\Design01\Generated_Source\PSoC4\I2C_1\I2C_1.h</v>
 <v>acc_v1_surface\Design01\Generated_Source\PSoC4\I2C_1\I2C_1_BOOT.c</v>
 <v>acc_v1_surface\Design01\Generated_Source\PSoC4\I2C_1\I2C_1_BOOT.h</v>
-<v>acc_v1_surface\Design01\Generated_Source\PSoC4\I2C_1\I2C_1_I2C.c</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -202,6 +202,7 @@
 <v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493</v>
 <v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug</v>
 <v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug\Listing Files</v>
+<v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug\Listing Files\accelerometer.lst</v>
 <v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug\Listing Files\Cm0Start.lst</v>
 <v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
 <v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
@@ -252,6 +253,7 @@
 <v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493</v>
 <v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug</v>
 <v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug\Listing Files</v>
+<v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug\Listing Files\accelerometer.lst</v>
 <v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug\Listing Files\Cm0Start.lst</v>
 <v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
 <v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
@@ -292,7 +294,6 @@
 <v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug\Design01.hex</v>
 <v>acc_v1_surface\Design01\CortexM0\ARM_GCC_493\Debug\Design01.map</v>
 <v>acc_v1_surface\Design01\Design01.gpdsc</v>
-<v>acc_v1_surface\Design01\Design01.rpt</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -333,8 +334,10 @@
 <OpenDocs>
 <name v=".\Design01.cydsn\main.c" />
 <name v=".\Design01.cydsn\functions.c" />
+<name v=".\Design01.cydsn\accelerometer.c" />
 <name v=".\Design01.cydsn\mpu_register_address.h" />
 <name v=".\Design01.cydsn\structs.h" />
+<name v=".\Design01.cydsn\functions.h" />
 </OpenDocs>
 <config v="" />
 <AutoUpdate v="true" />

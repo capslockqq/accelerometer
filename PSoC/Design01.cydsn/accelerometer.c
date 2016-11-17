@@ -38,39 +38,60 @@ void setAcceleration(movement_XY_s *movementData) {
     int16_t acc_total[2];
     
     //Variable til for løkke
-    int8_t i; 
-    for (i = 0; i < 2; i++) {
-        temp_acc_H[i] = ReadI2CData(ACCEL_XOUT_H);
-        temp_acc_L[i] = ReadI2CData(ACCEL_XOUT_L);
-        acc_total[i] = ((temp_acc_H[i] << 8) + temp_acc_L[i]);
+
+   
+        temp_acc_H[1] = ReadI2CData(ACCEL_XOUT_H);
+        temp_acc_L[1] = ReadI2CData(ACCEL_XOUT_L);
+        acc_total[1] = ((temp_acc_H[1] << 8) + temp_acc_L[1]);
         //Trækker x-accel fejl fra værdien
-        acc_total[i] -= movementData->AccErrorX;
+        acc_total[1] -= movementData->AccErrorX;
         //Checker om accelerationen skal betragted som 0
-        if (acc_total[i] < TOLERANCE && acc_total[i] > -TOLERANCE) {
-            acc_total[i] = 0;
+        if (acc_total[1] < TOLERANCE && acc_total[1] > -TOLERANCE) {
+            acc_total[1] = 0;
+
         }
-        movementData->acceleration_x[i] = acc_total[i];  
-        CyDelay(5);
-    }
+        movementData->acceleration_x[1] = acc_total[1];  
+    
 
   
 }
 
 void setVelocity(movement_XY_s *movementData) {
-    //Tager integrale af x-acceleration for at finde hastighed
+    if (movementData->acceleration_x[1] == 0) {
+        movementData->countx++;
+        if (movementData->countx > 5) {
+            movementData->velocity_x[1] = 0;   
+            movementData->velocity_x[0] = 0;  
+        }
+    }
+    else {
+        movementData->countx = 0; 
+        //Tager integrale af x-acceleration for at finde hastighed
+        movementData->velocity_x[1] = movementData->velocity_x[0]+movementData->acceleration_x[0]+((movementData->acceleration_x[1]-movementData->acceleration_x[0])/2);
+        //Tager integrale af y-acceleration for at finde hastighed
+        movementData->velocity_y[1] = movementData->velocity_y[0]+movementData->acceleration_y[1]+((movementData->acceleration_y[1]+movementData->acceleration_y[0])/2);
+    }
     
     
-    movementData->velocity_x[1] = movementData->velocity_x[0]+movementData->acceleration_x[1]+((movementData->acceleration_x[1]-movementData->acceleration_x[0])/2);
-    //Tager integrale af y-acceleration for at finde hastighed
-    movementData->velocity_y[1] = movementData->velocity_y[0]+movementData->acceleration_y[1]+((movementData->acceleration_y[1]-movementData->acceleration_y[0])/2);
     
 }
 
 void setPosition(movement_XY_s *movementData) {
     //Tager integrale af x-acceleration for at finde hastighed
-    movementData->position_x[1] = movementData->position_x[0]+movementData->velocity_x[1]+((movementData->velocity_x[1]-movementData->velocity_x[0])/2);
+    movementData->position_x[1] = movementData->position_x[0]+movementData->velocity_x[0]+((movementData->velocity_x[1]-movementData->velocity_x[0])/2);
     //Tager integrale af y-acceleration for at finde hastighed
     movementData->position_y[1] = movementData->position_y[0]+movementData->velocity_y[1]+((movementData->velocity_y[1]-movementData->velocity_x[0])/2);
+    
+}
+
+void updateMovement(movement_XY_s *movementData) {
+    movementData->acceleration_x[0] =  movementData->acceleration_x[1];
+    movementData->velocity_x[0] =  movementData->velocity_x[1];
+    movementData->position_x[0] =  movementData->position_x[1];
+    
+    movementData->acceleration_y[0] =  movementData->acceleration_y[1];
+    movementData->velocity_y[0] =  movementData->velocity_y[1];
+    movementData->position_y[0] =  movementData->position_y[1];
     
 }
 

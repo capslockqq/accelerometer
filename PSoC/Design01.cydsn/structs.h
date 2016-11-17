@@ -18,8 +18,8 @@ typedef struct movement_XY_s {
     int16 acceleration_y[2];
     int16 velocity_x[2]; 
     int16 velocity_y[2];   
-    int16 position_x[2];
-    int16 position_y[2];
+    int32 position_x[2];
+    int32 position_y[2];
 }movement_XY_s;
 
 

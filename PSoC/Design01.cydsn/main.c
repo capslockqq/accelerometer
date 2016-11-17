@@ -26,7 +26,7 @@ int main()
     int8_t temp_acc_H[2];
     int8_t temp_acc_L[2];
     int16_t acc_total[2] = {0};
-    int16_t  velocity_x[2] = {0};
+    int16_t velocity_x[2] = {0};
     int16_t position_x[2] = {0};
     MPU_9150_Acc_config_s accConfigObj;
     movement_XY_s movementData;
@@ -86,45 +86,46 @@ int main()
 //            
 //
 //            
+////        }
+//        temp_acc_H[1] = ReadI2CData(ACCEL_XOUT_H);
+//        temp_acc_L[1] = ReadI2CData(ACCEL_XOUT_L);
+//        acc_total[1] = ((temp_acc_H[1] << 8) + temp_acc_L[1]);
+//        //Trækker x-accel fejl fra værdien
+//        acc_total[1] -= movementData.AccErrorX;
+//        
+//       
+//        if (acc_total[1] < TOLERANCE && acc_total[1] > -TOLERANCE) {
+//            acc_total[1] = 0;
+//            acc_total[0] = 0;
 //        }
-        temp_acc_H[1] = ReadI2CData(ACCEL_XOUT_H);
-        temp_acc_L[1] = ReadI2CData(ACCEL_XOUT_L);
-        acc_total[1] = ((temp_acc_H[1] << 8) + temp_acc_L[1]);
-        //Trækker x-accel fejl fra værdien
-        acc_total[1] -= movementData.AccErrorX;
+//        
+//        velocity_x[1] = (velocity_x[0]/20)+acc_total[1]+((acc_total[1]+acc_total[0])/2);
+//        
+//        
+//        if (acc_total[1] == 0) {
+//            countx++;   
+//            if (countx > 10) {
+//             velocity_x[1] = 0;   
+//            velocity_x[0] = 0;
+//            }
+//        }
+//        else {
+//            countx = 0;
+//        }
+//       
+//        
+//        position_x[1] = position_x[0]+velocity_x[1]+((velocity_x[1]+velocity_x[0])/2);
         
-       
-        if (acc_total[1] < TOLERANCE && acc_total[1] > -TOLERANCE) {
-            acc_total[1] = 0;
-            acc_total[0] = 0;
-        }
-        
-        velocity_x[1] = (velocity_x[0]/20)+acc_total[1]+((acc_total[1]+acc_total[0])/2);
-        
-        
-        if (acc_total[1] == 0) {
-            countx++;   
-            if (countx > 10) {
-             velocity_x[1] = 0;   
-            velocity_x[0] = 0;
-            }
-        }
-        else {
-            countx = 0;
-        }
-       
-        
-        position_x[1] = position_x[0]+velocity_x[1]+((velocity_x[1]+velocity_x[0])/2);
-        
-//        setAcceleration(&movementData); 
-//        setVelocity(&movementData);
-//        setPosition(&movementData);
-        sprintf(value,"%d_", position_x[1]);
+        setAcceleration(&movementData); 
+        setVelocity(&movementData);
+        setPosition(&movementData);
+        sprintf(value,"%ld_", movementData.position_x[1]);
         PC_PSoC_UART_UartPutString(value);
-        velocity_x[0] = velocity_x[1];
-        position_x[0] = position_x[1];
-        acc_total[0] = acc_total[1];
-        CyDelay(50);
+        updateMovement(&movementData);
+//        velocity_x[0] = velocity_x[1];
+//        position_x[0] = position_x[1];
+//        acc_total[0] = acc_total[1];
+        CyDelay(30);
         
         
         

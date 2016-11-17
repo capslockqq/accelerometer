@@ -92,8 +92,8 @@ k = k*signed;
       drawnow;
   
       if t > 1
-         velocity(t) = velocity(t-1) + x(t)+((x(t)-x(t-1))/2);
-         position(t) = position(t-1) + +velocity(t)+((velocity(t)-velocity(t-1))/2);
+         velocity(t) = velocity(t-1) + x(t-1)+((x(t)-x(t-1))/2);
+         position(t) = position(t-1) + +velocity(t-1)+((velocity(t)-velocity(t-1))/2);
          if x(t) == 0
             countx = countx+1;
          else

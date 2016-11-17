@@ -1,11 +1,32 @@
---------------- Build Started: 11/16/2016 18:12:03 Project: Design01, Configuration: ARM GCC 4.9-2015-q1-update Debug ---------------
+--------------- Build Started: 11/17/2016 13:20:53 Project: Design01, Configuration: ARM GCC 4.9-2015-q1-update Debug ---------------
 The code generation step is up to date.
 arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/main.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\main.c -o .\CortexM0\ARM_GCC_493\Debug\main.o
+.\main.c: In function 'main':
+.\main.c:34:11: warning: unused variable 'countx' [-Wunused-variable]
+     uint8 countx = 0;
+           ^
+.\main.c:30:13: warning: unused variable 'position_x' [-Wunused-variable]
+     int16_t position_x[2] = {0};
+             ^
+.\main.c:29:13: warning: unused variable 'velocity_x' [-Wunused-variable]
+     int16_t velocity_x[2] = {0};
+             ^
+.\main.c:28:13: warning: unused variable 'acc_total' [-Wunused-variable]
+     int16_t acc_total[2] = {0};
+             ^
+.\main.c:27:12: warning: unused variable 'temp_acc_L' [-Wunused-variable]
+     int8_t temp_acc_L[2];
+            ^
+.\main.c:26:12: warning: unused variable 'temp_acc_H' [-Wunused-variable]
+     int8_t temp_acc_H[2];
+            ^
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/functions.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\functions.c -o .\CortexM0\ARM_GCC_493\Debug\functions.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/accelerometer.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\accelerometer.c -o .\CortexM0\ARM_GCC_493\Debug\accelerometer.o
 arm-none-eabi-ar.exe -rs .\CortexM0\ARM_GCC_493\Debug\Design01.a .\CortexM0\ARM_GCC_493\Debug\cyfitter_cfg.o .\CortexM0\ARM_GCC_493\Debug\CyBootAsmGnu.o .\CortexM0\ARM_GCC_493\Debug\CyFlash.o .\CortexM0\ARM_GCC_493\Debug\CyLib.o .\CortexM0\ARM_GCC_493\Debug\cyPm.o .\CortexM0\ARM_GCC_493\Debug\cyutils.o .\CortexM0\ARM_GCC_493\Debug\CyLFClk.o .\CortexM0\ARM_GCC_493\Debug\I2C_1.o .\CortexM0\ARM_GCC_493\Debug\I2C_1_I2C_INT.o .\CortexM0\ARM_GCC_493\Debug\I2C_1_I2C.o .\CortexM0\ARM_GCC_493\Debug\I2C_1_I2C_BOOT.o .\CortexM0\ARM_GCC_493\Debug\I2C_1_I2C_MASTER.o .\CortexM0\ARM_GCC_493\Debug\I2C_1_PM.o .\CortexM0\ARM_GCC_493\Debug\I2C_1_BOOT.o .\CortexM0\ARM_GCC_493\Debug\I2C_1_SCBCLK.o .\CortexM0\ARM_GCC_493\Debug\I2C_1_sda.o .\CortexM0\ARM_GCC_493\Debug\I2C_1_sda_PM.o .\CortexM0\ARM_GCC_493\Debug\I2C_1_scl.o .\CortexM0\ARM_GCC_493\Debug\I2C_1_scl_PM.o .\CortexM0\ARM_GCC_493\Debug\I2C_1_SCB_IRQ.o .\CortexM0\ARM_GCC_493\Debug\PC_PSoC_UART.o .\CortexM0\ARM_GCC_493\Debug\PC_PSoC_UART_SPI_UART.o .\CortexM0\ARM_GCC_493\Debug\PC_PSoC_UART_SPI_UART_INT.o .\CortexM0\ARM_GCC_493\Debug\PC_PSoC_UART_PM.o .\CortexM0\ARM_GCC_493\Debug\PC_PSoC_UART_UART.o .\CortexM0\ARM_GCC_493\Debug\PC_PSoC_UART_BOOT.o .\CortexM0\ARM_GCC_493\Debug\PC_PSoC_UART_UART_BOOT.o .\CortexM0\ARM_GCC_493\Debug\PC_PSoC_UART_SCBCLK.o .\CortexM0\ARM_GCC_493\Debug\PC_PSoC_UART_tx.o .\CortexM0\ARM_GCC_493\Debug\PC_PSoC_UART_tx_PM.o .\CortexM0\ARM_GCC_493\Debug\PC_PSoC_UART_rx.o .\CortexM0\ARM_GCC_493\Debug\PC_PSoC_UART_rx_PM.o
 arm-none-eabi-ar.exe: creating .\CortexM0\ARM_GCC_493\Debug\Design01.a
 arm-none-eabi-gcc.exe -Wl,--start-group -o .\CortexM0\ARM_GCC_493\Debug\Design01.elf .\CortexM0\ARM_GCC_493\Debug\main.o .\CortexM0\ARM_GCC_493\Debug\functions.o .\CortexM0\ARM_GCC_493\Debug\accelerometer.o .\CortexM0\ARM_GCC_493\Debug\cymetadata.o .\CortexM0\ARM_GCC_493\Debug\Cm0Start.o .\CortexM0\ARM_GCC_493\Debug\Design01.a "C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM0\ARM_GCC_493\Debug\CyComponentLibrary.a" -mcpu=cortex-m0 -mthumb -g -ffunction-sections -Og -ffat-lto-objects -L Generated_Source\PSoC4 -Wl,-Map,.\CortexM0\ARM_GCC_493\Debug/Design01.map -T Generated_Source\PSoC4\cm0gcc.ld -specs=nano.specs -Wl,--gc-sections -Wl,--end-group
-cyelftool.exe -C C:\Users\EmilR\Desktop\accelerometer\PSoC\Design01.cydsn\CortexM0\ARM_GCC_493\Debug\Design01.elf --flash_row_size 128 --flash_size 32768
-cyelftool.exe -S C:\Users\EmilR\Desktop\accelerometer\PSoC\Design01.cydsn\CortexM0\ARM_GCC_493\Debug\Design01.elf
-Flash used: 7680 of 32768 bytes (23,4 %).
+cyelftool.exe -C C:\Users\capslock\Desktop\accelerometer\PSoC\Design01.cydsn\CortexM0\ARM_GCC_493\Debug\Design01.elf --flash_row_size 128 --flash_size 32768
+cyelftool.exe -S C:\Users\capslock\Desktop\accelerometer\PSoC\Design01.cydsn\CortexM0\ARM_GCC_493\Debug\Design01.elf
+Flash used: 7296 of 32768 bytes (22,3 %).
 SRAM used: 1596 of 4096 bytes (39,0 %). Stack: 1024 bytes. Heap: 128 bytes.
---------------- Build Succeeded: 11/16/2016 18:12:05 ---------------
+--------------- Build Succeeded: 11/17/2016 13:20:54 ---------------

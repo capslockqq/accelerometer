@@ -15,6 +15,7 @@ void movement_init(movement_XY_s *);
 void setAcceleration(movement_XY_s *);
 void setVelocity(movement_XY_s *);
 void setPosition(movement_XY_s *);
+void updateMovement(movement_XY_s *);
 
 
 
