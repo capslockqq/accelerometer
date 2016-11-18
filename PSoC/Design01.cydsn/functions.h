@@ -6,16 +6,23 @@
 
 
 void sys_init();
-void struct_init(MPU_9150_Acc_config_s *accInit, movement_XY_s *movementInit);  
+void struct_init(MPU_9150_Acc_config_s *accInit, movement_XY_s *movementInit, kalmanFilterValues_s *);  
 
 
-//Funktioner der bruger structs som parameter (betragtes som member funktioner)
+/*******************************************************************************/
+/*Funktioner der bruger structs som parameter (betragtes som member funktioner)*/
+/*******************************************************************************/
+//Init funktioner
 void mpu_init(MPU_9150_Acc_config_s *);
 void movement_init(movement_XY_s *);
+void kalmanFilter_init(kalmanFilterValues_s *);
+//Set funktioner
 void setAcceleration(movement_XY_s *);
 void setVelocity(movement_XY_s *);
 void setPosition(movement_XY_s *);
 void updateMovement(movement_XY_s *);
+void kalmanFilter(movement_XY_s *, kalmanFilterValues_s *);
+void updateKalmanFilter(kalmanFilterValues_s *);
 
 
 

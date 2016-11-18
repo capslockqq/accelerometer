@@ -22,6 +22,18 @@ typedef struct movement_XY_s {
     int32 position_y[2];
 }movement_XY_s;
 
+typedef struct kalmanFilterValues_s {
+    
+    //Kalman gain
+    float32 KG;
+    //Estimatet af den "rigtige værdi
+    float32 Estimate[2];
+    //Fejl i ovenstående estimat
+    float32 Error_Estimate[2];
+    
+    
+}kalmanFilterValues_s;
+
 
 
 

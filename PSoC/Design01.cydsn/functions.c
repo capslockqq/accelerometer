@@ -12,11 +12,11 @@ void sys_init() {
     I2C_1_Start();
 }
 
-void struct_init (MPU_9150_Acc_config_s *accInit, movement_XY_s *movementInit) {
+void struct_init (MPU_9150_Acc_config_s *accInit, movement_XY_s *movementInit, kalmanFilterValues_s *kalmanInit) {
     mpu_init(accInit);
     movement_init(movementInit);
-    //calibrateMPU9150(accInit, movementInit);
-
+    calibrateMPU9150(accInit, movementInit);
+    kalmanFilter_init(kalmanInit);
 }
 
 

@@ -3,6 +3,10 @@
 #include <functions.h>
 #include <mpu_register_address.h>
 
+
+/************************************************************************************/
+/********************************Init funktioner*************************************/
+/************************************************************************************/
 void mpu_init(MPU_9150_Acc_config_s *configObj) {
     configObj->accConfigData = 0b00010000;
     configObj->sampleRateDividerData = 0x08;
@@ -28,9 +32,21 @@ void movement_init(movement_XY_s *init) {
     init->countx = 0;
     init->county = 0;
     init->AccErrorX = 0;
+    
        
 }
 
+void kalmanFilter_init(kalmanFilterValues_s *init) {
+    init->Estimate[1] = 0;
+    init->Estimate[0] = 0;
+    init->Error_Estimate[1] = 5;
+    init->Error_Estimate[0] = 5;
+    init->KG = 0;
+}
+
+/************************************************************************************/
+/********************************Set funktioner**************************************/
+/************************************************************************************/
 
 void setAcceleration(movement_XY_s *movementData) {
     int8_t temp_acc_H[2];
@@ -95,61 +111,28 @@ void updateMovement(movement_XY_s *movementData) {
     
 }
 
+void kalmanFilter(movement_XY_s *movementData, kalmanFilterValues_s *kalmanData) {
+    kalmanData->KG = (kalmanData->Error_Estimate[1])/(kalmanData->Error_Estimate[1]+movementData->AccErrorX*2);
+    kalmanData->Estimate[1] = kalmanData->Estimate[0] + kalmanData->KG*(movementData->acceleration_x[1]-kalmanData->Error_Estimate[0]);
+    kalmanData->Error_Estimate[1] = (1-kalmanData->KG)*kalmanData->Error_Estimate[0];
+}
+
+void updateKalmanFilter(kalmanFilterValues_s *kalmanData) {
+    kalmanData->Error_Estimate[0] = kalmanData->Error_Estimate[1];
+    kalmanData->Estimate[0] = kalmanData->Estimate[1];
+}
+
 
 
 void calibrateMPU9150(MPU_9150_Acc_config_s *accConfig, movement_XY_s *movementData) {
-    int32_t error[3] = {0,0,0}; //Fejl data fra x,y,z (ACC)
-    int8_t data[6] = {0,0,0,0,0,0}; //data fra FIFO 
-    int16_t acc_temp[3] = {0,0,0}; //Midlertidig acc data
-    uint16_t fifo_count; //Tæller hvor mange bytes der ligger i FIFO'en
-    uint8_t i,j = 0; //For loop counter
-    uint16_t packetCount;
-    
-    /*
-    AFS_SEL Full Scale Range LSB Sensitivity
-        ±2g 16384 LSB/mg
-        ±4g 8192 LSB/mg
-        ±8g 4096 LSB/mg
-        ±16g 2048 LSB/mg
-    */
-    
-    WriteI2CData(CONFIG, 0x01); //Sætter båndbredde til 184 for acc og 188 for gyro
-    WriteI2CData(SAMPLE_RATE_DIVIDER, 0x00); //Sætter samplerate til 1kHz
-    WriteI2CData(ACC_CONFIG, accConfig->accConfigData); //Sætter acc til 2g, dette er maksimum følsomhed
-
-    //Opsætning af FIFO
-    WriteI2CData(USER_CTRL, 0x40); //Sætter bit 7 til høj; FIFO er enabled
-    WriteI2CData(FIFO_EN, 0x08); //Sætter ACC registrene vil blive placeret i FIFO'en
-    //Laver delay på 80 ms, således der bliver foretaget 80 samples
-    // 80*3 = 240*2 = 480 bytes i bufferen.
-    CyDelay(80); 
-    WriteI2CData(FIFO_EN, 0x00); // Disabler FIFO (bevarer eksisterende data)
-    fifo_count = (ReadI2CData(FIFO_COUNTH) << 8) + ReadI2CData(FIFO_COUNTL);
-    
-      
-    //Dividerer med 2 da brugbar data er 16 bits lang(2bytes) der er 3 akser
-    //Derfor 2*3 = 6.
-    packetCount = fifo_count / 6; 
-
-
-    for(i = 0; i < packetCount; i++) {
-        ReadI2CBytes(6, FIFO_R_W, data);
-        acc_temp[0] = (data[0] << 8) + data[1];
-        acc_temp[1] = (data[2] << 8) + data[3];
-        acc_temp[2] = (data[4] << 8) + data[5];
-
-        error[0] += acc_temp[0];
-        error[1] += acc_temp[1];
-        error[2] += acc_temp[2];
-    
+    uint8 i;
+    int32 temp_acc = 0;
+    for (i = 0; i < 64;  i++) {
+       setAcceleration(movementData); 
+       temp_acc += movementData->acceleration_x[1];
     }
-
+    temp_acc = temp_acc >> 6;
+    movementData->AccErrorX = temp_acc;
     
-    for (j = 0; j < 3; j++) {
-        //Finder gennemsnitsfejl
-        error[j]  = error[j] / packetCount; 
-            
-    }
-    movementData->AccErrorX = error[0];
-    movementData->AccErrorY = error[1];
+    
 }

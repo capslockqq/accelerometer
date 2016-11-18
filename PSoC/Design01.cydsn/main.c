@@ -30,7 +30,8 @@ int main()
     int16_t position_x[2] = {0};
     MPU_9150_Acc_config_s accConfigObj;
     movement_XY_s movementData;
-    struct_init(&accConfigObj, &movementData);
+    kalmanFilterValues_s kalmanData;
+    struct_init(&accConfigObj, &movementData, &kalmanData);
     uint8 countx = 0;
     
     for(;;) // endless loop
@@ -119,13 +120,15 @@ int main()
         setAcceleration(&movementData); 
         setVelocity(&movementData);
         setPosition(&movementData);
-        sprintf(value,"%ld_", movementData.position_x[1]);
+        kalmanFilter(&movementData,&kalmanData);
+        sprintf(value,"%d_", (int)kalmanData.Estimate[1]);
         PC_PSoC_UART_UartPutString(value);
         updateMovement(&movementData);
+        updateKalmanFilter(&kalmanData);
 //        velocity_x[0] = velocity_x[1];
 //        position_x[0] = position_x[1];
 //        acc_total[0] = acc_total[1];
-        CyDelay(30);
+        CyDelay(50);
         
         
         
